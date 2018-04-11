@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d60da3ff-e9f2-4de2-b82b-5998e2ba203d"
+  name="Providers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fcdc622e-644a-4e5d-b0b0-13ef755e8a59"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBsuirHealthProjectServer.Providers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0b62b56a-81ff-4251-84aa-9fda6857286e"
+        name="ApplicationOAuthProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c2da6f04-c0bd-4cb5-a937-38fbf5a62e11"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0a90463f-eadd-409c-8bdf-ccb063ca451c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0198c5aa-e051-416d-925c-86fc8d8e607a">
+                <propertyInstance
+                  Id="017fce30-671e-48a1-adb3-9f28e9cd7900"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="29846420-678c-42f2-a1a6-cb4e6db5782f">
+                <propertyInstance
+                  Id="13229b85-8916-4704-89d0-e7b91e3de0ac"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2b4bdc2-327c-4cb6-90cd-4cd9213f94f1">
+                <propertyInstance
+                  Id="e3b79f88-46b1-4a1e-ad68-ff58ad97d59b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d9e5a18-32d6-4d2e-956f-1d39d1349a45">
+                <propertyInstance
+                  Id="80a626fc-ddd0-4ed2-abd9-9e4343bc0201"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b55c8cd8-a06b-425c-8422-05b86d2b9be9">
+                <propertyInstance
+                  Id="cdb8ef75-f4c9-48f0-a11a-865e5fa551cc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="bd812afc-a21b-4980-9e61-0b416feab1d0"
+            isSubstitutable="false">
+            <classMoniker
+              Id="3ad4af85-702e-4226-8c58-d2b5dc3afd24"
+              LastKnownName="OAuthAuthorizationServerProvider"
+              LastKnownLocation="Package42_0406.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="af648859-8d84-431f-8de4-e60e633f37be"
+            name="_publicClientId"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0e03a547-fdc3-4a18-bde8-5f9ee0bad77d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D_publicClientId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="81c86ceb-2a52-438b-a821-4b221ea0829c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5aed632b-d214-4223-8941-da1f65f10581">
+                    <propertyInstance
+                      Id="0c3e854d-0bce-4879-9db0-6c9a75a47f7b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1411380f-3c75-42b7-9bc8-fc6d43100bcd">
+                    <propertyInstance
+                      Id="c19d70d2-5dee-42b8-98cd-c1c571740b2a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5556c59-3c60-4f0d-a7cc-a40ba9830919">
+                    <propertyInstance
+                      Id="ffb4f136-adbc-49cf-a228-c8603f73cd9b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa7d9f57-9126-4ade-bd71-f1c2ca7b52cd">
+                    <propertyInstance
+                      Id="e1d3038b-f7a3-4bc4-8425-6a2d37f1f9ca"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac8fde09-e656-4d6c-bd43-9b7711b2b5d9">
+                    <propertyInstance
+                      Id="a10206c3-e87e-4df9-bbe1-90ac2bf2dc5c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2a7b9454-3327-4797-862f-0919dd3a0438"
+            name="CreateProperties"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7de4a795-6da9-4d4d-a839-adb41e89562b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DCreateProperties OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1d291efd-839d-4983-bf29-d2457e98baa0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99928355-eea8-4a22-93db-0dbeb0cbe354">
+                    <propertyInstance
+                      Id="644c3c9d-4831-4743-bd0c-8f3232632474"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34904fea-71e4-4127-a28c-2aeac34519e2">
+                    <propertyInstance
+                      Id="920766f4-419e-4e09-b607-c356c163c4fa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58f8b053-83cc-4f4e-bd1c-bd70f17c9e89">
+                    <propertyInstance
+                      Id="ebfb7751-a7e3-48cf-936b-177be2f21d26"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6331f6e8-44c1-422f-ac81-8b897681efc4">
+                    <propertyInstance
+                      Id="576b171a-b261-49ea-980c-e72134c959eb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b8da26f-c79b-4ba2-9c61-0ab279d1b5f4">
+                    <propertyInstance
+                      Id="4d47b0b5-cf65-4edf-8190-ef60ae9d5665"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9d968f3-9cc2-465e-8fa3-ff4f84cdfccd">
+                    <propertyInstance
+                      Id="c9cd5fc4-4796-4175-b6fb-fc8e39e330fb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56d7a6c1-c505-409c-96c6-03a8740d3ea2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c42d0ebd-0fbb-43b4-b406-80f3e8028511"
+                      LastKnownName="AuthenticationProperties"
+                      LastKnownLocation="Package11_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="84fc38ec-3eb5-41dc-8ac5-c436c835c550"
+                  name="userName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="829d7f0b-7681-4f53-b38c-b8ed930d5462"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DCreateProperties OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="45ed3bdf-396f-4b6b-95f0-33508b905961"
+            name="ApplicationOAuthProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7373febd-fce0-420d-83ad-7044617ab6e6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fd0daeef-4e5a-4d30-8839-edacf189a30a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="291f0669-85de-4b51-8a14-47cb8461116d">
+                    <propertyInstance
+                      Id="e506e8f5-6183-4746-82c3-14e1526ea9f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5975e9e-24db-4de3-974b-48dae81687f6">
+                    <propertyInstance
+                      Id="e4e59cc2-ca1e-4c4d-842f-21aa49854437"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="878a8a88-15dd-42cb-b9ed-cb83742f3894">
+                    <propertyInstance
+                      Id="9f3dcd84-afa7-4064-b912-19bc953fa7ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a96e7fd6-5202-47cb-9593-6784b20f2e05">
+                    <propertyInstance
+                      Id="39093158-1329-464e-87f1-caa959b08c4d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e728806d-f191-4fe7-a4ab-7fa73c474e44">
+                    <propertyInstance
+                      Id="34f636c9-57bd-4291-9f97-3e468bed7c05"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b73f118-324a-462e-bd10-626827ea1a69">
+                    <propertyInstance
+                      Id="ea15b60a-4ccf-4ff4-aefa-0c0ee48c0d7b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bfc3eb61-9932-4214-805e-952a79a4ba50"
+                  name="publicClientId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7ea19b2b-91ab-462a-a14f-8cdc0d1684e0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DpublicClientId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="80ba0f1b-f7a9-4b5e-a02b-f632dd670500"
+            name="GrantResourceOwnerCredentials"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ef7efef4-febd-41c7-9535-050c08e7e873"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DGrantResourceOwnerCredentials OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthGrantResourceOwnerCredentialsContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3866898c-b9fb-4b9d-959d-88d36ccc56d3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe821962-ad30-49d1-89a3-911a271b1f8e">
+                    <propertyInstance
+                      Id="20ac4bfb-ad23-48fa-952f-ff8ebfec97a0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a71dbae4-bc90-4292-95c1-88c6c0f44757">
+                    <propertyInstance
+                      Id="2b6e0fbb-5beb-43d2-afc3-e75a6921660a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de03c394-2c09-4276-b90f-f5020bb93f8c">
+                    <propertyInstance
+                      Id="6b49679c-8f86-4a22-823e-812208241297"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18417644-134b-4b1d-bba9-e5c723b90836">
+                    <propertyInstance
+                      Id="dedc7fc4-67be-46a7-9e1f-4e1e138b5831"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa40deeb-471d-4c63-96f1-a258c3fc5e79">
+                    <propertyInstance
+                      Id="f19feb78-a842-41fe-b49a-9a93757bad40"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf897b67-e979-43be-8901-59b580ab3f73">
+                    <propertyInstance
+                      Id="66c6a28a-b267-4e1a-bfd5-efdf535bdd4e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2a2818a7-63eb-4c9c-9af7-7b1c426a9bff"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9c33d61-229b-4679-a48b-f683546c1a3a"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package6_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b1651298-e487-43ec-9f0a-edc112566626"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1dccfded-2a2b-4e1f-a82c-ae6c7f05462a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DGrantResourceOwnerCredentials OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthGrantResourceOwnerCredentialsContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="26358e95-cf9c-44b2-a3f2-2503d84147e4"
+                      LastKnownName="OAuthGrantResourceOwnerCredentialsContext"
+                      LastKnownLocation="Package42_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c0369e36-e160-4477-885d-156e9c4fd838"
+            name="TokenEndpoint"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9e7ffddb-da9d-4d90-a3fc-914bc53c2ee8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DTokenEndpoint OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthTokenEndpointContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="50707e6b-7e1e-4356-977a-82aaedac86de"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f8891a5-32ac-4f53-b2ae-ce1d93f7037a">
+                    <propertyInstance
+                      Id="2a2de20a-c595-4adc-afda-5d6f5bee6df8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="001aac32-befd-4658-91a3-61bf9bb03461">
+                    <propertyInstance
+                      Id="3e72ac55-47cb-4915-9a98-e938c78e8685"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f196870a-43a0-4611-8c50-b9f078c2019f">
+                    <propertyInstance
+                      Id="1c9e3386-e55f-4cb0-ab5f-f6ea3c6aa4df"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fefd835-36e6-4fb9-a443-985b627a3820">
+                    <propertyInstance
+                      Id="5bdf2654-b04c-48cd-945f-15ccd9e69907"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b1834c9-1113-4103-805f-16f6cd353b60">
+                    <propertyInstance
+                      Id="dfbc425f-c8e5-4b2d-bbb7-92b266bf5411"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08443a5f-894a-41a9-bf0b-c5565393f3c6">
+                    <propertyInstance
+                      Id="3424fdb1-2018-4dd2-bf07-24d150741956"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="92069c25-87a1-4e07-bc87-c7d65a7d3c7b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9c33d61-229b-4679-a48b-f683546c1a3a"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package6_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c31663e1-e9d7-41c5-8f61-2534b5be42b1"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="62594c6b-c0eb-4d7e-adae-c4bc9d86d80c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DTokenEndpoint OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthTokenEndpointContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="44fffa02-8fa5-493a-a55a-e834ccce9b58"
+                      LastKnownName="OAuthTokenEndpointContext"
+                      LastKnownLocation="Package42_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f5f14923-6554-4c72-98f9-e78893beed7a"
+            name="ValidateClientAuthentication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="770f6bbd-edd7-40fa-bbd7-b538f89828a2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientAuthentication OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientAuthenticationContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e7ddbf8-2f22-4483-bb60-9fd0556f7fbf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00fdc9fb-ef5a-413a-ad0f-f61245676a2e">
+                    <propertyInstance
+                      Id="d575b701-8c8a-4317-854b-8aad1de02a6e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cdefc9d-c89a-48d2-b054-8ff78b33ed47">
+                    <propertyInstance
+                      Id="7f5d3ae0-c09e-4346-99bc-3784593c7187"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b37753a7-a1ce-417b-a503-7fd1b3dad7fa">
+                    <propertyInstance
+                      Id="116b952c-76e7-47de-868d-f08ed6f31a07"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2f4ab3d-b3f7-4197-a1ec-a027dae525c2">
+                    <propertyInstance
+                      Id="ac72f998-dd87-42b6-93c9-750c1b3e5f40"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86c161b8-0af0-4888-952b-a76c939e7bab">
+                    <propertyInstance
+                      Id="df7ee3d0-f0c0-4142-9c58-a21d17ae78cd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82753dca-8360-4821-b22f-b2d5bd02b31d">
+                    <propertyInstance
+                      Id="2b085b74-1b3b-453d-b6e4-9bfc29d1ae92"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e786f2a7-dd34-4456-adbc-4d88e06b360b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9c33d61-229b-4679-a48b-f683546c1a3a"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package6_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dd4d644a-8e03-4041-87c9-b86e82769c80"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="68fb3847-a319-4488-802f-d0f46d46d083"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientAuthentication OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientAuthenticationContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1671221b-2cd6-4760-bca8-0fddfdfca928"
+                      LastKnownName="OAuthValidateClientAuthenticationContext"
+                      LastKnownLocation="Package42_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="86006a76-5c49-452d-b93e-e42932f3be51"
+            name="ValidateClientRedirectUri"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f7b24fcf-f82b-450c-8cd2-2223209cdb53"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientRedirectUri OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientRedirectUriContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f21c0139-c2fa-48fb-ac59-d01976764220"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bc616ec-8245-40b5-98ae-e6c0c4c882d3">
+                    <propertyInstance
+                      Id="084e9462-9999-423a-b562-feac6864eb8d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12fdeda0-c7e0-4996-a5ef-9d2560e70bcd">
+                    <propertyInstance
+                      Id="1e0fe0e4-84ef-4f14-8cad-254271ab249e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="935855ac-e5fa-4c9d-8301-3d5d48e7e94d">
+                    <propertyInstance
+                      Id="6bbf1f7b-1561-4b83-a761-0fdf3a0d1068"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="906b5287-b1ad-4526-a219-965e99b15e7e">
+                    <propertyInstance
+                      Id="e886c318-259a-4fb6-9cf9-0d5f3571e20d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6aba23e-03a9-41b6-8b4e-a3c269ba30bc">
+                    <propertyInstance
+                      Id="a056f222-91c9-4dfa-8e70-2f0193af9144"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c22df9a8-72b4-4fcb-92c2-5254389bc7a1">
+                    <propertyInstance
+                      Id="ee697d58-666e-4bc2-9ef3-6e0cb9334132"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="522b8442-40f6-46bf-95e6-64a4be288ed7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a9c33d61-229b-4679-a48b-f683546c1a3a"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package6_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2499a6d6-b608-40c0-be71-2a03b93d4146"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0add2397-7de4-4854-97a5-9794f2e4f917"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientRedirectUri OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.OAuth.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientRedirectUriContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="004cedf3-fac2-4d52-ae4d-8bc7c747910a"
+                      LastKnownName="OAuthValidateClientRedirectUriContext"
+                      LastKnownLocation="Package42_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

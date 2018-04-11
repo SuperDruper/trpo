@@ -1,0 +1,58 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* LANGUAGE PICKER START*/
+.language-picker-button, .language-picker-button:focus {
+    margin-top: 7px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+.language-picker-button:hover {
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+.open .dropdown-toggle.btn-default.language-picker-button {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.language-picker-wrapper > .language-picker-button > .caret {
+    border-bottom-color: #999999;
+    color: #999999;
+    background-color: transparent;
+}
+.language-picker-wrapper > .language-picker-button:hover > .caret {
+    border-bottom-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.language-picker-wrapper > .dropdown-menu {
+    top: 100%;
+    padding-bottom: 70px;
+    border: 1px solid #ffffff;
+    background-color: #222222;
+}
+
+.language-picker-wrapper > .dropdown-menu > li {
+    margin: 15px 5px 0 5px;
+    color: #999999
+}
+.language-picker-wrapper > .dropdown-menu > li:first-child {
+    margin-top: 5px
+}
+.language-picker-wrapper > .dropdown-menu > li:hover {
+    color: #ffffff
+}
+/* LANGUAGE PICKER END*/

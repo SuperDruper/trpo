@@ -1,0 +1,115 @@
+﻿@model BsuirHealthProjectServer.Models.DatabaseModels.Food
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Food</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FoodCategory.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FoodCategory.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FoodConsistencyType.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FoodConsistencyType.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Proteins)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Proteins)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Carbs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Carbs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ccal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ccal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sugar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sugar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AmountOfWater)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AmountOfWater)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDeleted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateModification)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateModification)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

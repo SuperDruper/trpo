@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Admin Panel</h2>
+<ul class="list-unstyled">
+
+    <li>
+        @Html.ActionLink("Dishes", "Index", "Dish", new { }, new { @class = "list-group-item" })
+    </li>
+    <li>
+        @Html.ActionLink("Dish Categories", "Index", "DishCategories", new { }, new { @class = "list-group-item" })
+    </li>
+    <li>
+        @Html.ActionLink("Foods", "Index", "Food", new { }, new { @class = "list-group-item" })
+    </li>
+    <li>
+        @Html.ActionLink("Food Categories", "Index", "FoodCategories", new { }, new { @class = "list-group-item" })
+    </li>
+    <li>
+        @Html.ActionLink("Food Consistencies", "Index", "FoodConsistencyTypes", new {}, new {@class = "list-group-item"})
+    </li>
+    <li>
+        @Html.ActionLink("Eating", "Index", "Eatings", new { }, new { @class = "list-group-item" })
+    </li>
+    <li>
+        @Html.ActionLink("Users", "Index", "User", new {}, new {@class = "list-group-item"})
+    </li>
+    <li>
+        @Html.ActionLink("Admins", "Admins", "User", new {}, new {@class = "list-group-item"})
+    </li>
+</ul>
+

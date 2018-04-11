@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="48875013-eefb-4e52-b139-f4456cf8c840"
+  name="Owin"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0399d5b2-1507-4fe6-a873-7187a7210516"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="bb049f46-8a0c-490e-845e-7bd1fe13288e">
+      <profileInstance
+        Id="1a56ee15-332c-4cca-ac37-274fad1ec0f6"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a04f3e6c-432e-4381-a733-3c6bc55797bf"
+        LastKnownName="Security"
+        LastKnownLocation="Package11_0406.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2f30847a-d6aa-4ed4-bd67-b5d667443e62"
+        name="IOwinContext"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="2a76bc7e-07c5-4031-97f6-c55ec83fb6ee"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1a30330f-10c6-4590-b1d2-07e03ee2bb06"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37d5b02b-9323-4911-b59b-886f501111b4">
+                <propertyInstance
+                  Id="e6bb2f22-24a2-4364-97b8-2f35337bf428"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d74d0ea-3d98-49b1-8353-8ff5757549c5">
+                <propertyInstance
+                  Id="5743067f-3045-47c2-9178-76319fc801e6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e84755e7-a41a-4df0-8797-4345093d84a2">
+                <propertyInstance
+                  Id="ada6b506-597a-4010-ab1c-bda809c9c628"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d03df06-a6a0-4865-ae10-db32e6acea0e">
+                <propertyInstance
+                  Id="b50de862-d188-46a0-9ac8-77106105d793"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9b889550-e02f-44d5-84a0-c58bb897819e"
+        name="IOwinRequest"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="26f3ec14-28c5-4b3f-b883-6efd17a46522"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin Type%3DIOwinRequest"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="46da6c1f-2e50-4a7b-9937-75530ecd1790"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4361b008-7c8b-40a8-b57f-d34fe974d60d">
+                <propertyInstance
+                  Id="27d0dece-7b25-4d34-991d-1e558fc80678"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24864d04-4ae9-4e92-b695-70fe09f9aeb4">
+                <propertyInstance
+                  Id="3753a987-f8da-41ed-b0dd-19d187db53d4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="956eccef-e47e-4134-85d1-d7cd16d345d9">
+                <propertyInstance
+                  Id="7ca239cf-ef19-4394-b9ea-954f28573b71"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d37dd98-9b71-4dea-b2d8-3334184091bf">
+                <propertyInstance
+                  Id="9e8a2a5c-4558-405b-8c03-311fc9385339"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

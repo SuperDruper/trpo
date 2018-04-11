@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a58087ff-a07c-4eab-80f4-03f30e67c0f7"
+  name="Query"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8685b46d-9b91-44b1-a40e-e26f4d692a34"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.OData.Query"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d690dd11-43cf-414d-b831-1d8b374da649"
+        name="ODataQueryOptions&lt;Dish‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9e93c02f-2616-4d06-b819-3cb76c787581"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1341be0-0434-4648-b330-4afd5effbfe3">
+                <propertyInstance
+                  Id="657346f2-55ab-467f-9e63-09c8e8c502e6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f0e091d1-12bc-4974-bf29-a411324a0e93">
+                <propertyInstance
+                  Id="52f82965-e243-409a-a0ba-bf7d14e6483f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a699c61e-98f8-4b87-aa1e-024a37d732d4">
+                <propertyInstance
+                  Id="36572b87-5430-4fdb-84ce-e7e7e30e8cad"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db75cf00-4021-41c8-a671-3789098f8d87">
+                <propertyInstance
+                  Id="94c117ad-627c-41d1-8e40-b224f4e99839"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7b530d7c-b523-4a3b-bbc5-fcaa17a3a44c">
+                <propertyInstance
+                  Id="efa7f257-d97d-4ee1-9dc5-da126d6e13e3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="d5a8d35f-0665-4f3c-a9d0-3a080859f0eb">
+            <redefinableTemplateSignatureMoniker
+              Id="5fc6aa24-da9c-42f4-93e0-7c431de5e954"
+              LastKnownLocation="Package32_0406.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="ddb0c67a-e697-4405-b34d-51aed30a7ee9">
+                  <actuals>
+                    <classMoniker
+                      Id="2fedf9c6-ea49-4267-ae3b-5301967eda21"
+                      LastKnownName="Dish"
+                      LastKnownLocation="Package12_0406.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="d475986f-c2b8-4066-b53e-dcf6576a8d68"
+                      LastKnownLocation="Package32_0406.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ea570e66-cf6a-45f1-807f-3b02607b0e59"
+        name="ODataQueryOptions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a782cc5e-d5bf-48d4-b510-b3a8525c0675"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.OData.6.0.0%2Flib%2Fnet45%2FSystem.Web.OData.dll Namespace%3DSystem.Web.OData.Query Type%3D(Name%3DODataQueryOptions GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="53e0ae47-8eb4-4d32-813e-c67dfe90e98f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00e6677e-2d01-4be4-b82e-b121b69924ac">
+                <propertyInstance
+                  Id="8a93a2a7-1bb1-481d-97ea-1a07c7c46640"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="97c4637d-2da4-4450-9f18-7dd8e0a5f34d">
+                <propertyInstance
+                  Id="9730762b-9a60-4d2d-89a2-2a30136f732a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1852d19e-f685-47ac-81a8-fb5b88e720b5">
+                <propertyInstance
+                  Id="838306c3-4a2d-4732-b995-4cb153afa179"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bfcc8ab0-6ac9-43c6-a236-20f265145252">
+                <propertyInstance
+                  Id="0ada4b10-71da-4221-8e88-edd67e8cf04f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c07ebe9-efba-4fdc-805c-18503744e243">
+                <propertyInstance
+                  Id="97086c49-7153-407a-aa46-87e78e6169e1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="5fc6aa24-da9c-42f4-93e0-7c431de5e954"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="d475986f-c2b8-4066-b53e-dcf6576a8d68">
+                <referencesInternal>
+                  <reference
+                    Id="50aa942c-55b9-4fbd-a503-415747dfafb5"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.OData.6.0.0%2Flib%2Fnet45%2FSystem.Web.OData.dll Namespace%3DSystem.Web.OData.Query Type%3D(Name%3DODataQueryOptions GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="1523e95e-0799-4675-9804-d8b87944eb5f"
+                    name="TEntity"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2fb288f1-dc89-4014-927e-f0230a13abf5"
+  name="Optimization"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5af294d6-9d7d-49a9-a107-23daf672a87d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.Optimization"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="68768797-b8ff-416a-8a08-4d2665f4ddd8"
+        name="BundleCollection"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ba02de96-acd0-4e9e-832b-18ba26dd38c9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Web.Optimization.1.1.3%2Flib%2Fnet40%2FSystem.Web.Optimization.dll Namespace%3DSystem.Web.Optimization Type%3DBundleCollection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e14b870c-ca78-407b-a6e3-8c4ab6790d02"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f60e8032-82fc-4230-b02a-1c66795884e4">
+                <propertyInstance
+                  Id="2539f227-9338-4221-9f10-0b80f630ffe6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f86a88d4-6df8-45b7-a14d-bffa1504a825">
+                <propertyInstance
+                  Id="f3e7be0c-630d-420e-b926-0f18d74b8ec2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0026cf07-24d6-4bea-baef-e0f0f40f7ae2">
+                <propertyInstance
+                  Id="301f3e2a-9ec0-4e1a-98e6-0526d71aa14c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa0b6331-9e64-4e7d-837a-f56e30a16bd4">
+                <propertyInstance
+                  Id="a416864f-f9e5-4e06-a79f-245462dd5a1f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9c1fc35-b8d4-46ea-8a56-605ba3294936">
+                <propertyInstance
+                  Id="bcdfe95d-4f8c-461c-be89-802bb909780b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

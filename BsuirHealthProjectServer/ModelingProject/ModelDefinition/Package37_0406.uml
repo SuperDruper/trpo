@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="cdb89a26-f5dd-437a-b7b0-70f516ab4d84"
+  name="Migrations"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7e1f77ea-cfc0-4570-8140-8a996430c020"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Data.Entity.Migrations"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="53da518a-092d-46e7-82ec-4491cd64da55"
+        name="DbMigrationsConfiguration&lt;ApplicationDbContext‎&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2ebc79da-291f-41b4-8770-c022f21cffce"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d345a578-d688-41b8-8814-0ffba7baa749">
+                <propertyInstance
+                  Id="bd9c6f32-0435-492d-b1fb-b85bdd61ac8f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="27d408eb-1066-400f-8c72-ee6724a78086">
+                <propertyInstance
+                  Id="def8f481-183a-451e-aec7-955d6ecbd852"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb9332c2-8a3b-4bbd-9286-56c410c44348">
+                <propertyInstance
+                  Id="f9544f2b-28bf-4301-b43d-42f5346221a1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2c0bff3-60cd-406e-9e4c-caaf91c9991c">
+                <propertyInstance
+                  Id="940ac211-12b1-4131-83bd-87bba800cf3d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="986fb6fd-66ac-4f6c-bdc3-ab7c53aaec0d">
+                <propertyInstance
+                  Id="83c552d7-c13f-4b70-b4b1-ae820cabc244"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="ea7ee22c-bf8b-4c94-b541-0f027258dca7">
+            <redefinableTemplateSignatureMoniker
+              Id="7afa3d73-6e15-4093-99c3-b04b07157f40"
+              LastKnownLocation="Package37_0406.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="f2ff60cb-441e-4290-9ffe-efaea8ef3b12">
+                  <actuals>
+                    <classMoniker
+                      Id="e8188042-9400-44ff-a781-decdf83f14dd"
+                      LastKnownName="ApplicationDbContext"
+                      LastKnownLocation="Package7_0406.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="7bbbcdbd-3218-40fc-9604-8e5741fc46c2"
+                      LastKnownLocation="Package37_0406.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ba8fdba6-8cd2-4bde-b29b-96237fea1ae4"
+        name="DbMigrationsConfiguration"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4eb61031-518d-45f2-8d85-03ce9a3667c1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FEntityFramework.6.1.3%2Flib%2Fnet45%2FEntityFramework.dll Namespace%3DSystem.Data.Entity.Migrations Type%3D(Name%3DDbMigrationsConfiguration GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e77b7039-37d4-45aa-8360-6f684d3f79fe"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c79f647-f77c-49fb-a6aa-68190eb56ca6">
+                <propertyInstance
+                  Id="1dd3f4a4-0099-4d05-8497-9f8157d085f8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aea8c310-84c5-405e-8cb7-f48612f503a3">
+                <propertyInstance
+                  Id="cb07daf4-35e1-449a-b51f-4d575209d185"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ea65012-c863-4006-a174-fb747bb4bb97">
+                <propertyInstance
+                  Id="b9a0d750-7d36-48ea-a678-dc801e65a263"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38996f95-b79b-4deb-b8f9-874f571139d8">
+                <propertyInstance
+                  Id="96eb2ee9-3dae-465e-9cd6-8a3e276edddb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="abcb2967-4337-4896-aefb-81b0ec3f7ee7">
+                <propertyInstance
+                  Id="7112dfd7-1d5b-4e7f-a366-8d84b61fc985"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="7afa3d73-6e15-4093-99c3-b04b07157f40"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="7bbbcdbd-3218-40fc-9604-8e5741fc46c2">
+                <referencesInternal>
+                  <reference
+                    Id="34dce36e-9c2c-4960-aee7-ba119ecee611"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FEntityFramework.6.1.3%2Flib%2Fnet45%2FEntityFramework.dll Namespace%3DSystem.Data.Entity.Migrations Type%3D(Name%3DDbMigrationsConfiguration GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="7b323d82-3249-4a4a-87ee-2048d099aed1"
+                    name="TContext"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c7d4c980-19c3-4f76-b055-8ff9ef3c8990"
+        LastKnownName="Infrastructure"
+        LastKnownLocation="Package39_0406.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4e640215-7d61-4cde-9858-05ef310582ca"
+        name="DbMigration"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0ae33364-f816-43ea-8d79-e23395208ff3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FEntityFramework.6.1.3%2Flib%2Fnet45%2FEntityFramework.dll Namespace%3DSystem.Data.Entity.Migrations Type%3DDbMigration"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a6739970-aaf4-4158-a131-49946a6f27f7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e21d7c66-1ba1-4cf1-9710-c416a74eafb5">
+                <propertyInstance
+                  Id="9159a534-ff4f-41b2-817c-8d92dbbf8f3e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac02e910-e6e6-4bba-ad21-928e69c8eb1b">
+                <propertyInstance
+                  Id="9dc426a6-de02-485a-a234-7043d7ebfd6d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="799a4ad2-05ec-4bb7-9e60-07dbc5cef48b">
+                <propertyInstance
+                  Id="d86090db-938e-4de3-9fc6-2f5cd820e061"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3530f99-c160-41fa-b578-055785da3913">
+                <propertyInstance
+                  Id="c5e0a0bc-a509-4ded-942f-ce8d4bef42f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d70b848e-72e4-46fc-8849-181466ace106">
+                <propertyInstance
+                  Id="ded1e6eb-9d75-40f3-9433-a836945bed7e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

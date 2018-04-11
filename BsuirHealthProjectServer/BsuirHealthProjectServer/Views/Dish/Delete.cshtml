@@ -1,0 +1,115 @@
+﻿@model BsuirHealthProjectServer.Models.DatabaseModels.Dish
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Dish</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DishCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DishCategory.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalProteins)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalProteins)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalFat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalFat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalCarbs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalCarbs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalCcal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalCcal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalSugar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalSugar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalAmountWater)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalAmountWater)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.DateModification)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateModification)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+           <!-- <input type="submit" value="Delete" class="btn btn-default" onclick="location.href='@Url.Action("RemoveDish")'"/> |-->
+            @Html.ActionLink("Delete", "RemoveDish", new { id = Model.Id }) |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

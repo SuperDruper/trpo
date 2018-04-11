@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="0723dc4f-3f99-4c43-837d-005c36ed88b9"
+  name="AutoMapper"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="781309df-83f9-49fd-ac8d-56ad181b149f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAutoMapper"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="7b419220-a829-4668-ade1-ea7dc27decfb">
+      <profileInstance
+        Id="cade05cd-ec13-47d4-9248-67ec6bedeec9"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5b567bca-7840-424f-8e30-fa2a346d4a5b"
+        name="MapperConfiguration"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2056bedb-a7ea-4171-a5b7-1682fdee7fef"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FAutoMapper.6.0.2%2Flib%2Fnet45%2FAutoMapper.dll Namespace%3DAutoMapper Type%3DMapperConfiguration"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bf2ccf70-485a-448b-b8e0-bcf3869ea51b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d006da9-6a30-4362-9c54-5f89884203f1">
+                <propertyInstance
+                  Id="14123929-0cb8-4136-aad8-13d5909fcea7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79f18286-1193-47e0-b91a-9f0241d7fb3c">
+                <propertyInstance
+                  Id="5933a4d1-dae9-4ae4-9ed4-1e9f8bd19978"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b48446cb-a010-4650-a217-d8befc238017">
+                <propertyInstance
+                  Id="8f86157e-ab17-4088-a483-f6010709953c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b8d7d45-5e34-44fb-8fde-84c1866913f5">
+                <propertyInstance
+                  Id="c5437621-9317-4c60-8b88-ba01b4a12849"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38a10975-9630-4921-a304-0da3f0691fc8">
+                <propertyInstance
+                  Id="998582a0-7636-433e-a6df-8661d31bc3d6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9732fb64-f377-45f2-bb46-5797d3f8784a"
+        name="IMapper"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="f0690166-39a7-4cf5-b0c9-ec80c2fcb979"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FAutoMapper.6.0.2%2Flib%2Fnet45%2FAutoMapper.dll Namespace%3DAutoMapper Type%3DIMapper"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="04ce0764-8a8e-43b9-870c-391392811209"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="64cb785f-3434-4625-b08a-52e673d77ed9">
+                <propertyInstance
+                  Id="12c6479d-bcd2-49c3-9bf4-0b181ddf27c7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37d7c059-726d-4a5f-9263-c55143dcd927">
+                <propertyInstance
+                  Id="d0e78c9d-e54d-4ac8-b95f-0de84d6a3cbf"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d82f9544-f223-44fa-9dbf-50ff70c25b31">
+                <propertyInstance
+                  Id="4f88c29b-0528-40e1-80bb-faff23be2e56"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="81b711b5-c7ef-4168-9039-470885df4f43">
+                <propertyInstance
+                  Id="239e2c73-b269-4af4-a3fd-498483049676"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d5cf252d-1678-4406-b850-7cad3779fae0"
+        name="IMappingExpression&lt;TSource‎, TDestination‎&gt;"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="10a8de05-06ea-4f37-8a02-ca8b0d36742e"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5a963abd-7806-451d-bc0a-0353a551d206">
+                <propertyInstance
+                  Id="3553ac7a-d72d-4a93-b73b-299134cc20bb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d8d11781-c6dc-412c-ba66-79d902800bd1">
+                <propertyInstance
+                  Id="6ccfa94f-42a1-4647-b95d-7d594ef5ad5d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3f52c515-5942-4a06-b98b-06f2298b89d7">
+                <propertyInstance
+                  Id="ff33a5b6-8f51-4cd3-9d32-323d21346a3b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ec637f4-726b-43f1-adaf-e93415fc6301">
+                <propertyInstance
+                  Id="04141397-836b-4a42-90f7-8c34994ce081"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="b2ba084f-cf71-4402-bfba-484f79b16203">
+            <redefinableTemplateSignatureMoniker
+              Id="64b13672-83bd-4484-87fc-d93b503d2eb1"
+              LastKnownLocation="Package29_0406.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="ec0a7457-2edf-4e65-bd23-daa2f2f52376">
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="8aadf8f0-99fc-495f-8eea-a7f84498193d"
+                      LastKnownLocation="Package29_0406.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="bf38ac5d-d780-4cb1-ac9f-285fbce592e0">
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="e9231c43-b778-4a1e-8ac5-b6e0a5e01b0c"
+                      LastKnownLocation="Package29_0406.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9e8ed306-9654-44c7-bb29-83768ad1b2ac"
+        name="IMappingExpression"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b0f06bfa-1ddf-42d5-b501-def5c4fe0031"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FAutoMapper.6.0.2%2Flib%2Fnet45%2FAutoMapper.dll Namespace%3DAutoMapper Type%3D(Name%3DIMappingExpression GenericParameterCount%3D2)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="668e721c-4ac1-42c8-ba48-573dbd883bb4"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c3f537b-03a4-4e1d-aad2-e8661cf5b3e6">
+                <propertyInstance
+                  Id="23864005-24b1-49b8-90d9-c695d4ff203b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="614e0b80-bdc1-4e5b-921d-aff47f036748">
+                <propertyInstance
+                  Id="35cdd305-cb5b-4a62-a35b-c3cf3733dd58"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6feb950-467e-43f2-a64c-3afbcc45a0ce">
+                <propertyInstance
+                  Id="a4274859-b1a6-4389-85c0-4b2bc40431de"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a78bc974-3db2-4e24-8c95-073443e96f6f">
+                <propertyInstance
+                  Id="b9a9814f-00ab-43cf-b1c2-580189fd6f14"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="64b13672-83bd-4484-87fc-d93b503d2eb1"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="8aadf8f0-99fc-495f-8eea-a7f84498193d">
+                <referencesInternal>
+                  <reference
+                    Id="4ed098c2-5d6f-4681-82e4-c927eb009026"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FAutoMapper.6.0.2%2Flib%2Fnet45%2FAutoMapper.dll Namespace%3DAutoMapper Type%3D(Name%3DIMappingExpression GenericParameterCount%3D2) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="fd33d0ef-976e-4642-8b3d-704e050f43ab"
+                    name="TSource"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+              <classifierTemplateParameter
+                Id="e9231c43-b778-4a1e-8ac5-b6e0a5e01b0c">
+                <referencesInternal>
+                  <reference
+                    Id="1ffb4f84-a7ee-4f81-af97-a5941e167151"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FAutoMapper.6.0.2%2Flib%2Fnet45%2FAutoMapper.dll Namespace%3DAutoMapper Type%3D(Name%3DIMappingExpression GenericParameterCount%3D2) ParameterIdentifier%3D1"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="182d2f0f-f0c4-44a7-8235-a3389b28df37"
+                    name="TDestination"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

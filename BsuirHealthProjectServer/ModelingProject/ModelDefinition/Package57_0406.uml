@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d8fc9576-a9d9-4810-8d39-960c89df16ed"
+  name="Formatting"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="256a6426-ce8c-4728-989c-2544989ae3ab"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Net.Http.Formatting"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2e4b785f-9184-4852-a4fb-a29d58c90767"
+        name="MediaTypeFormatter"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0a6fea2a-ed5a-43de-9cf5-852f0bf241b4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.WebApi.Client.5.2.3%2Flib%2Fnet45%2FSystem.Net.Http.Formatting.dll Namespace%3DSystem.Net.Http.Formatting Type%3DMediaTypeFormatter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="aa1af52c-e80d-4059-ad72-9eb4b0237d71"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f3d146d0-3d70-4b0a-9ef2-0523cec3b3d9">
+                <propertyInstance
+                  Id="5a187912-1feb-4bc0-b746-574ab103bf58"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="448ce2de-b7a0-45cc-b108-3490d75da576">
+                <propertyInstance
+                  Id="91a605dc-5700-488a-b350-a0d2f00cd4d2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f00422ce-d41c-4958-9189-334cbbb22677">
+                <propertyInstance
+                  Id="b94eed10-9155-4b3d-aef7-0617b0960554"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="139a818c-8a44-4219-a841-eeada2771940">
+                <propertyInstance
+                  Id="9d6755a9-fdf5-43f9-b563-b8d30df9a2a3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8048b8d-839e-44f7-9abb-56062fae9342">
+                <propertyInstance
+                  Id="cd5ef732-4047-43cd-b8ac-c61fcefd02e4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

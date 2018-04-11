@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a04f3e6c-432e-4381-a733-3c6bc55797bf"
+  name="Security"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f8a0ef1d-953d-4262-a401-c5e81b62ddb7"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.Owin.Security"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="95d3f921-e15b-4a18-98fa-ec8f060e9019">
+      <profileInstance
+        Id="98af693d-6be4-4fcc-879d-e14935b99773"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="f591395b-416f-4591-9b45-d1f0e9f19fff"
+        name="IAuthenticationManager"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="1282207b-73a2-4ed4-9190-6b8541dbc5c9"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Security Type%3DIAuthenticationManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c61d05ef-ff7a-480b-a6b9-f18c0cabfae2"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="95e4a78c-f42b-4730-b6be-20656fcff8f1">
+                <propertyInstance
+                  Id="595484eb-6edb-4592-a301-77e60090b1b2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d35c798d-33ed-4797-9515-024e9c3f66a8">
+                <propertyInstance
+                  Id="a4304224-14a8-4d27-a0cb-4b907d420391"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dba80517-1318-4d07-9bdc-5a8eebc283e7">
+                <propertyInstance
+                  Id="b5305797-bb96-4476-8ba3-090eb9e1a59b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd6828e8-379b-4141-9ecc-ec5ff891e5f8">
+                <propertyInstance
+                  Id="829a9a26-0102-4775-be06-034d5e755f18"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="0bc02d03-6b96-444a-b214-c3ca5acb4b58"
+        name="ISecureDataFormat&lt;AuthenticationTicket‎&gt;"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d1084b21-4ff3-444e-ab8d-c0d90e424ff5"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fddb0100-1b31-4f37-9fc8-6a98de8ad360">
+                <propertyInstance
+                  Id="47fc3af7-85c9-41c9-a725-006104bad90e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69c70c3b-ff8d-466d-a4e6-7100f2e99ba1">
+                <propertyInstance
+                  Id="ffda41ce-ffea-48d0-ab63-26c18a3f1ada"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad9682dd-0987-4a64-bb15-369dbc2ef63e">
+                <propertyInstance
+                  Id="5fcb0666-00d9-4c85-a090-b8ed5a6bc8f2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b27d3d01-3942-4d95-b268-260fe81c3207">
+                <propertyInstance
+                  Id="8bd46985-6e8d-46a4-935c-53b296fd6928"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="3c1cdd54-867d-4512-850d-ca99be1ff469">
+            <redefinableTemplateSignatureMoniker
+              Id="88f96c20-ecae-4c40-90ba-7f01635e2fc8"
+              LastKnownLocation="Package11_0406.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="b53647e9-afce-4c44-bf47-ab5589184517">
+                  <actuals>
+                    <classMoniker
+                      Id="102feb53-2c42-4cbc-b77c-6184612c708a"
+                      LastKnownName="AuthenticationTicket"
+                      LastKnownLocation="Package11_0406.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="500df083-99fa-4060-931d-9dad43b7b602"
+                      LastKnownLocation="Package11_0406.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="6bc1625d-194b-4d8a-a079-e9ded0f5ac88"
+        name="ISecureDataFormat"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="50c828e8-3f72-4b3a-8756-4f419b388ccd"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security Type%3D(Name%3DISecureDataFormat GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a1e9ae95-c8d3-4f0d-b9f6-cdfdca408339"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9e95f09-f3a3-4e25-8fa8-e2c9b0a831da">
+                <propertyInstance
+                  Id="25a1b5d6-83a6-4d38-a14a-a3ab35b39ee0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9ac7c70-0459-4f87-95d3-0b4eb770a89d">
+                <propertyInstance
+                  Id="583386d9-6ac0-4a01-b2fd-acc89eb58f89"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="07667de5-38cd-4cca-8719-3f3abb9f67d7">
+                <propertyInstance
+                  Id="584f9bd3-8f46-417c-98f2-eedabfa62303"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="260e761c-a046-4743-83a0-118b83888d49">
+                <propertyInstance
+                  Id="9a1fb889-06cf-4204-b536-1f3f522d2baf"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="88f96c20-ecae-4c40-90ba-7f01635e2fc8"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="500df083-99fa-4060-931d-9dad43b7b602">
+                <referencesInternal>
+                  <reference
+                    Id="487f305b-6e19-4f58-8f33-7a31bb18130d"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security Type%3D(Name%3DISecureDataFormat GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="7f9d5522-234b-4d4f-ba4a-0f81271c8bc3"
+                    name="TData"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="102feb53-2c42-4cbc-b77c-6184612c708a"
+        name="AuthenticationTicket"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e136eca2-cf4f-48ce-9072-6562ddffc826"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.Security.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.Security.dll Namespace%3DMicrosoft.Owin.Security Type%3DAuthenticationTicket"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="74b500fd-03c0-427d-95be-2b6ea50aa18e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fadcd06-4d8b-4a8c-95d7-03905f871f02">
+                <propertyInstance
+                  Id="dcfa4f33-788b-4e6f-ab00-b5ad99b9fcdc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51df9a4e-a782-4fad-a61b-711cde6af611">
+                <propertyInstance
+                  Id="a8e96144-63ec-4f3d-b1c1-38f18d415c76"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b59fe047-5dec-4459-afa4-2585b3844ece">
+                <propertyInstance
+                  Id="e233f440-46c6-41ed-ae06-94cf710ff2b8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a305b237-4e8b-44f5-b152-3d35eebb49ad">
+                <propertyInstance
+                  Id="5ca873ca-e341-476c-aa97-5214ed851ee7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62f482cb-9bee-4700-a2d5-54f0179e2c38">
+                <propertyInstance
+                  Id="9a920b0e-c1ad-4417-9d7a-7ad161efadb7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c42d0ebd-0fbb-43b4-b406-80f3e8028511"
+        name="AuthenticationProperties"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="310f8261-e348-41b9-8db7-85b9d4ec50d4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.Owin.3.0.1%2Flib%2Fnet45%2FMicrosoft.Owin.dll Namespace%3DMicrosoft.Owin.Security Type%3DAuthenticationProperties"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="63ab8317-2b85-491d-9e5e-43b18073455a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d6b85af-5c3e-4734-96d4-572561a4f554">
+                <propertyInstance
+                  Id="25594c40-d56b-4021-b19b-fef7d41b5711"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0b263e3b-5d51-40c0-88bc-055e1da34038">
+                <propertyInstance
+                  Id="e1732347-7d14-44d9-aa59-1de3e04dc66a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4df2e5b-b8c5-4757-ba74-8b28f08bd52f">
+                <propertyInstance
+                  Id="a4a12265-eecc-41af-b9e1-7908c7ccdd72"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef1f49a2-bfc6-45d9-ba94-1eeb6e8160cc">
+                <propertyInstance
+                  Id="65aa453a-d850-4d65-b615-c5a8f7d13992"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="107f6351-5016-4365-834e-1ffd1fb5fd40">
+                <propertyInstance
+                  Id="300d989d-ccda-432b-a049-ab8d3623b5e2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e63e73d5-bf99-4e06-9483-47f209d29368"
+        LastKnownName="OAuth"
+        LastKnownLocation="Package42_0406.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

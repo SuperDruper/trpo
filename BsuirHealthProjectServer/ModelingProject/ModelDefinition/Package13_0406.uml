@@ -1,0 +1,2583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="da8b537d-e324-4d52-9daa-afde007d5bf4"
+  name="Services"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9d1a96f0-d33c-4705-ba42-5dc18b36f00d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBsuirHealthProjectServer.Services"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="89210ce2-7b7d-4b89-a3d7-83ccf37e4825"
+        LastKnownName="DaoServices"
+        LastKnownLocation="Package14_0406.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="64ab9c75-b4e6-4277-b200-15945f7373ea"
+        name="NutrientsService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ad830ec5-16c7-46ed-a4c8-03fd86face3b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="09481fc9-0ef4-4a0f-b5a1-c9500c84d6c9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="170e27dc-8b8d-42cd-9cdd-5d70c7f7ba8f">
+                <propertyInstance
+                  Id="07a1bdb1-3a68-4e32-9caf-d5ccba5dc1e0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d19249e-34f8-40f5-a593-1b5a0f5b5b8e">
+                <propertyInstance
+                  Id="5b7918cc-6b87-4adb-82e0-8ffc047ea28a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96aecb7f-b633-47b1-a316-1f76a132cbec">
+                <propertyInstance
+                  Id="12247fa1-89ba-4e68-8722-d21cc0e67cc8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c3b7c740-1377-4c9f-81a0-091ec78c8acc">
+                <propertyInstance
+                  Id="ea1294f4-a6ce-43e7-bca2-28ea8ff1fd40"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="612f0b65-fb9b-4681-97ca-51c2b018d274">
+                <propertyInstance
+                  Id="0bc7c134-18ca-44c0-928f-5e01600e2a1d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7618d81e-80a5-4029-8185-80b077a2aec6"
+            name="destinationWeightCharacteristicId"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a2c3d06b-b4a3-4444-a7f7-77a5d8cad208"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DdestinationWeightCharacteristicId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7b2678c6-eb78-4bab-9831-388921e74f86"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b8a1396-da6d-4bec-8c6a-3440d5e5eae5">
+                    <propertyInstance
+                      Id="8c0dffa6-97ae-4b93-8d60-d47ea147ae7a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e76a186d-fd52-425b-aa84-46769fd67de0">
+                    <propertyInstance
+                      Id="fdab04db-ae6c-41ee-b95c-630333115ede"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc1efc8d-224c-4208-999b-604625e571dd">
+                    <propertyInstance
+                      Id="09eee176-e53a-41f6-8d7c-7132339142ce"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fcaff25-0238-4d41-81ff-5157e327db1c">
+                    <propertyInstance
+                      Id="29174b67-f20c-469b-90ac-7fe7cc141341"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7729c4eb-8399-4837-92a2-ac6765ac141f">
+                    <propertyInstance
+                      Id="73733f7b-0409-45bd-87ab-95dc34f38a16"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="84b75e5d-6bc3-43b0-9085-309b546e8388"
+            name="kilocaloriesStandardCharacteristicId"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="208f4ce1-337e-4239-89c9-e5069c989bbe"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DkilocaloriesStandardCharacteristicId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ad2fa279-ede7-4bb0-ba13-d730e0812f30"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="226aa52c-7e88-451b-85a8-9506d241cbbe">
+                    <propertyInstance
+                      Id="d6543b29-9904-4b90-9dc4-a85ec5fc4650"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4677e29-6cde-4a2e-8ddf-6a0f3cc6adc9">
+                    <propertyInstance
+                      Id="3eac71c0-9200-4760-a146-661daa937f35"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3f4f3d8-c961-4249-9ebe-1ddc03fcb875">
+                    <propertyInstance
+                      Id="9d4f552c-e329-4f47-9c5d-477b9d60c7ca"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19df6b8c-d2f6-4a86-be76-0808234e65ac">
+                    <propertyInstance
+                      Id="c9551425-5227-4723-848e-806a3c1f80ad"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b689575-9d24-43c7-b00d-325eda54e16d">
+                    <propertyInstance
+                      Id="d351669a-85d0-4fb7-bdd6-e778482f9db2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="46031cfe-ee99-4a4c-9efc-1995bbc81e9b"
+            name="heightCharacteristicId"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f92d5b27-8828-4fa7-9edf-517995d3c409"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DheightCharacteristicId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bfcdfc30-391b-4f88-a7f2-d898aa6da0c6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="999d1c34-2cf8-4bee-8ff9-719f4666247e">
+                    <propertyInstance
+                      Id="9f04a793-6a7d-40e9-b26e-970624c4b42a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1128e184-b59c-4bec-a597-3ebaae2590fb">
+                    <propertyInstance
+                      Id="146f8651-30d9-414b-a6a3-1119516ef304"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c9c0f20-0396-4083-8ebd-2f3719ed1eca">
+                    <propertyInstance
+                      Id="dd5dc7db-203b-4939-82c0-5c2cdcc01620"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="922935bd-1930-47eb-a14d-1a0b2c1c7540">
+                    <propertyInstance
+                      Id="919a5419-6eb7-49f5-8d9f-2ed055d20844"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd833aa5-29e3-4899-a253-8926cc19ba3b">
+                    <propertyInstance
+                      Id="211c59d5-54b4-4183-80a4-d6d74f05e4b7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="54660b74-817a-4dea-a18f-9963c8c2f8ec"
+            name="Context"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d53088b9-7220-4eea-b645-f3b93b03dfd1"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DContext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7717622c-fe1c-459b-9c72-328440a5e2c9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="470d1a5e-e849-4ae1-873b-50f5e6b40606">
+                    <propertyInstance
+                      Id="7c95fd3d-d0b7-45b8-af00-1299b6b52ceb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3fa5214-b7a0-48b2-b138-34f565a9283f">
+                    <propertyInstance
+                      Id="55fd75e3-a8b8-464e-a79d-23aabb8910b8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccc9378b-1b7a-4298-aad7-5cd29922666a">
+                    <propertyInstance
+                      Id="918c4e83-f55c-4b55-9e5c-2822710ddd05"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d52b8c15-aaa3-40d9-a722-c5ff7a2bce6c">
+                    <propertyInstance
+                      Id="004b0039-3a17-4dcc-95ce-4c79ec3c3900"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e514653a-e114-43c4-ad5e-d0fc7def3526">
+                    <propertyInstance
+                      Id="ade2c9d1-ab05-480f-953d-91034a997442"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e8188042-9400-44ff-a781-decdf83f14dd"
+                LastKnownName="ApplicationDbContext"
+                LastKnownLocation="Package7_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1d59657c-2f6f-40d1-8da3-63feecd68111"
+            name="userCharacteristicService"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bc2898b0-2a49-4214-865f-f07536000e79"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DuserCharacteristicService"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6c966564-ab6b-41c8-819d-faabe4310e79"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23874161-a00c-4c1c-b36d-eb1c4fd0dd96">
+                    <propertyInstance
+                      Id="e42489e3-c6ac-4ee3-b24a-ffb2c167d726"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="219dad17-eae5-4857-bdf9-d20c4d96372b">
+                    <propertyInstance
+                      Id="86231629-d3ee-4f68-882a-9de0c95d74b0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11a94e5e-3f6f-4fee-8925-d2b748559c09">
+                    <propertyInstance
+                      Id="b058b834-fef0-483c-ad0f-be68b1498a22"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5e2d353-c328-4f2a-88db-ed4732fb774c">
+                    <propertyInstance
+                      Id="517ef1f5-12d3-4b7a-956f-bd82462a458e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0488632-e17a-482d-b1d2-89caf8d875f9">
+                    <propertyInstance
+                      Id="b34f9bac-c62c-4779-9667-821a2e1e4002"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ff53fb14-8f5c-4588-977b-4a70597aba5f"
+                LastKnownName="UserCharacteristicService"
+                LastKnownLocation="Package14_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8800cab7-97dd-4feb-9b7f-b8939a518fe3"
+            name="eatingService"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8fcaef03-f589-409a-b41f-579ee221792c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DeatingService"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f517876a-8f9f-44ca-a3e2-725269b1054e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87dcd960-9431-4c7e-9e60-e1674907c522">
+                    <propertyInstance
+                      Id="937f6562-8a5c-4f2b-84df-85df4a864b8f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d480020-ce9e-4546-8c8d-f7fda20ed05b">
+                    <propertyInstance
+                      Id="d6776bc0-bc1e-487d-8223-e98718cfbd7f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d7377cf-c2ef-474a-aeba-af258ad8fd6a">
+                    <propertyInstance
+                      Id="e993aedf-d9d6-4846-ab7e-35c5331f858e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e66aa81b-02a8-43de-b5e1-6e01be49a0ad">
+                    <propertyInstance
+                      Id="29a59c21-c4d3-4ef5-9a40-f6277203d469"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbda2fc7-db22-4567-8ab9-df8887d8efbd">
+                    <propertyInstance
+                      Id="73933a99-21ec-48f9-9292-d30d5d434a4d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ec9e8efa-0238-4ebd-8d8e-1f42d4366b34"
+                LastKnownName="EatingService"
+                LastKnownLocation="Package14_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b09633ab-341f-41cb-ae70-ff9e309092cb"
+            name="userService"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="72d1a5bc-81cc-4706-bbd3-b52dab969bb8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DuserService"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f117e05e-08e5-4102-82e6-49d2dc77c30f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="084e5ae6-9014-445f-bd15-5b65952a466e">
+                    <propertyInstance
+                      Id="2bf38e6e-9b31-4cc1-9fe9-a3a3003edc59"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78533aa7-78c1-490f-8268-49fa356c3839">
+                    <propertyInstance
+                      Id="da425454-d9c6-49f6-bb65-9f13f657ec43"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26806a04-6144-4794-ba07-731fd6250126">
+                    <propertyInstance
+                      Id="b8153369-052d-4482-8062-5e52c72f9e75"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa58e58e-95b9-41ed-a383-d122a7ead449">
+                    <propertyInstance
+                      Id="5971b775-324c-4970-8d43-8d3b61989c96"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7d782e0-54ba-4b80-9b05-b34659f9d4b7">
+                    <propertyInstance
+                      Id="d6965008-0167-4e9a-99b3-1a2109b23499"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="84efb59f-ecc7-46b2-8fef-a7f8e7f72e71"
+                LastKnownName="UserService"
+                LastKnownLocation="Package14_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="690326ee-3f9c-4b5e-bf7c-7a3720a15d42"
+            name="Attribute1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="dcecd923-7b17-407d-808b-202ace14ddd4"
+            name="NutrientsService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7a8432f7-0d86-48c3-af54-92d2dd9722c9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models Type%3DApplicationDbContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="229db49c-c152-4daf-a5e5-0eecf33a4cc0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4ef868e-664d-4a18-8f85-f41372dace6e">
+                    <propertyInstance
+                      Id="4af4899c-e86c-41a4-b9ac-2e551f277ba3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f3445c8-3385-4ca0-99fe-1c345f1141d0">
+                    <propertyInstance
+                      Id="9044b89d-b753-4ecf-8bff-8459ead76eb1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="571a0bbe-752b-49e7-807f-6586ffdc50cb">
+                    <propertyInstance
+                      Id="85166227-c07f-4aaf-9747-70b644a14d76"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff8b762d-095f-4145-bfa3-9e80a166e8ee">
+                    <propertyInstance
+                      Id="20c11927-1644-4143-837d-7f45ca97baaf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86a47cec-1a84-431a-9839-fae788cd42c3">
+                    <propertyInstance
+                      Id="386f64fa-101f-4a5d-84db-17bb3ac09355"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fcaffe5-44cf-4b3b-9b5c-d9f677454faf">
+                    <propertyInstance
+                      Id="f79ed938-3134-49c7-8e27-93d907151bd7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="489f30ed-9a44-41ba-ad34-c411d4932f6a"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d3469a4c-c59c-4912-936a-5b418b8f6209"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models Type%3DApplicationDbContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e8188042-9400-44ff-a781-decdf83f14dd"
+                      LastKnownName="ApplicationDbContext"
+                      LastKnownLocation="Package7_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="401431da-4ab3-48ad-ae03-4ee6e2b68fbc"
+            name="GetMainScreenData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="76d4bb48-cfe7-49ea-a947-b9fa93c404b4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetMainScreenData OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.Shared Type%3DDateInterval)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a85593b7-fd54-449c-a3ad-f564809857e4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="323e6802-e96c-4565-a4c7-fa80732b8d82">
+                    <propertyInstance
+                      Id="d79039c5-9011-4fe7-8742-dbb7c5b5e412"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6f8c6af-d8b8-419a-b9ee-3444ab2992ca">
+                    <propertyInstance
+                      Id="4337f98a-2f73-4f57-a27b-04f66fb1eb88"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0290c997-0b42-4bbe-9cbf-95a4d9c76ee1">
+                    <propertyInstance
+                      Id="9608a678-97ae-4329-ae68-4875910173b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdeb16a7-93ba-4cd6-9a6a-32944aab7bea">
+                    <propertyInstance
+                      Id="84722dfe-73a6-422a-b6be-5f569e9612fe"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ba48b4b-6649-4c69-883f-5db8a7ccda16">
+                    <propertyInstance
+                      Id="3f3e723d-0eec-4126-bc2a-1d4ab4c2ee24"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f513b97b-6ca7-456c-86a9-e0d87ca34585">
+                    <propertyInstance
+                      Id="bb2b1eba-0369-4590-afd2-708ccecc895d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f9e4a9b1-bb43-4a0b-8392-ccea248ee3a5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="369901d5-74a9-4b29-841c-bc160429fe0f"
+                      LastKnownName="IEnumerable&lt;MainScreenData‎&gt;"
+                      LastKnownLocation="Package16_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4d5e5853-f218-4633-84f9-b8e86fe869b0"
+                  name="interval"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f5c32664-594b-4fb2-b110-d6b32d59bc8a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetMainScreenData OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.Shared Type%3DDateInterval)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dinterval"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="38f91f28-641b-442a-8a95-608e745cad4c"
+                      LastKnownName="DateInterval"
+                      LastKnownLocation="Package26_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="13997817-915e-4130-bbfa-b96e63712bc5"
+                  name="idUser"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9252fe34-cf20-4835-a9eb-cb0a53fc2749"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetMainScreenData OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.Shared Type%3DDateInterval)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DidUser"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a9d14a5d-aeb3-4ab2-a6e1-38ae39baa407"
+            name="UpdateKcalStandard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f9ed74dd-cb36-41d0-b57a-477b31b81d05"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3DUpdateKcalStandard"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fbe77380-e53e-4daa-950e-cc8b45734c8c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7918a4b4-d05b-4784-ad49-19848d2d2721">
+                    <propertyInstance
+                      Id="26f3af54-7419-44a3-9d20-1b6211f25246"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70a3ed2d-7c0f-45f1-ae6a-9f3598cd0f1f">
+                    <propertyInstance
+                      Id="31d8eb7e-133d-4262-b11e-0b8b7ebc58d9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="960473b3-d764-4842-9ff5-6066ca04bac3">
+                    <propertyInstance
+                      Id="0e5a8759-c4ac-420c-8376-e817eccdc321"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85b44415-5157-4871-a572-ed845c13a55e">
+                    <propertyInstance
+                      Id="032ef7a6-c07a-42ad-b4db-a648e4be7639"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59041e99-2179-41b8-bdd0-06c4d3389669">
+                    <propertyInstance
+                      Id="6ad50229-5db7-44f6-9c55-85020614572e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ac2c639-a6ad-43e8-a35a-198374868f02">
+                    <propertyInstance
+                      Id="48df5d20-697a-4f44-bfcc-29739b4adbdc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9d3213a3-3051-43f6-81c6-cfeb94272348"
+            name="InitializeUserKcalStandard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b734f03e-e91f-4288-8cc7-bb925de017fe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DInitializeUserKcalStandard OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DUser)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="488fdfb4-d50c-49f9-9ddd-38327a891e00"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72dfdd1a-3c01-45e3-a2a6-0d0a12ebec90">
+                    <propertyInstance
+                      Id="2e87ddcc-b898-4340-b101-7d7940811b89"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9aceb003-43c5-456d-83bc-e9bf6261caef">
+                    <propertyInstance
+                      Id="5b6b62cd-d00b-44e3-b3a2-020381d16bd3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e3b2ced-ba88-41a7-89b8-0ac9bb30016f">
+                    <propertyInstance
+                      Id="c4517972-7481-4a3d-a6cc-65a30d1bf557"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f504ea76-2d49-4ddd-98e2-ba92f268459d">
+                    <propertyInstance
+                      Id="44741366-f957-4010-8382-8775c7be0a59"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6d8f07b-fb08-4157-9858-be27ee399c8c">
+                    <propertyInstance
+                      Id="3402a075-9630-4779-bfe3-7bd8ef8a2c03"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ccb2675-d935-4044-ad68-1851dda424d2">
+                    <propertyInstance
+                      Id="2bc71bca-74b7-44d4-b03f-c7b532cb3c7e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="79a6701b-2157-4e5d-9052-12759b6f128a"
+                  name="user"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fda2e160-dc74-41ba-8e1b-0ecf3a12b179"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DInitializeUserKcalStandard OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DUser)]) ParameterIdentifier%3Duser"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="2a4e87e3-d5ab-4cf4-8703-7b126769a2ef"
+                      LastKnownName="User"
+                      LastKnownLocation="Package12_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="76de3eed-ec25-456e-8993-f887002ad8ad"
+            name="UpdateUserWaterStandard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="944e3110-8e14-43ab-9719-aa1c6364c0d8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DUpdateUserWaterStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="db7ae58a-a9aa-4346-b72e-160f2cb08c01"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6557528-c371-4fb5-a43b-ea06b6a0b96f">
+                    <propertyInstance
+                      Id="f5be4f0a-4419-4a98-9c77-4dee69cb8206"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4c3ed55-0833-4099-9f9a-f7dd2d29bb26">
+                    <propertyInstance
+                      Id="73ef7794-f763-4f42-a9af-07b356582ea0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baf8c411-f082-41e1-8337-54a780fd8294">
+                    <propertyInstance
+                      Id="714cce13-4ff0-412a-a927-1d0605e757a3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eaaecc8-e622-4da2-a03c-4159b8cdd389">
+                    <propertyInstance
+                      Id="01cc1f51-0fc0-477b-85e6-1fbb5484eed4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff4b5408-a8da-4933-a823-d8b22fcf4aaa">
+                    <propertyInstance
+                      Id="1d346c9d-3b75-4e76-8e95-eb7e21172d15"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06c0ca95-0b61-4f3a-bfb7-48b0c1fbb766">
+                    <propertyInstance
+                      Id="94c7f102-df8e-400c-bafa-a11ea52ff44f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c1b1d762-5544-49bc-ba1f-639ffc501eac"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6fd1b6e4-042a-42a0-b91a-5a8d821b8cac"
+                      LastKnownName="ValidationResult"
+                      LastKnownLocation="Package50_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="447b3ee4-4610-4fdf-8e8b-01877a2dace9"
+                  name="idUser"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="90de0add-5edd-4062-979e-95127373723d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DUpdateUserWaterStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3DidUser"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d5f12832-7799-4ebf-84b0-18fa13581968"
+                  name="weight"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0b7c726c-83ac-4cae-9609-f59cbb684dcc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DUpdateUserWaterStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3Dweight"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="adda502e-31a6-4226-b3ec-0ef904269ff6"
+            name="UpdateUserKcalStandard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aaa3b7c1-4243-46a5-8318-5989beb36089"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DUpdateUserKcalStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="40f98722-6867-45ed-b320-df474bd69d9a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06981fb8-85c5-4596-a02a-de19551362fd">
+                    <propertyInstance
+                      Id="cc4fef86-5016-4b68-a625-2419147a54f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70278dee-456e-4187-924a-ff6d1763ea23">
+                    <propertyInstance
+                      Id="49186311-4c0b-4d43-a809-b2808428ffb8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36a72e56-5e68-4143-bdcf-9b0b55f1bd54">
+                    <propertyInstance
+                      Id="3c7c5c9a-7be2-4d77-a302-edd081cde549"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43c70891-f5db-403a-94e4-5277dfcd69dd">
+                    <propertyInstance
+                      Id="1359345d-1af1-4aa7-ad5f-f635e8a71afc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d4bdf62-7849-45a5-bb21-2e295452fc42">
+                    <propertyInstance
+                      Id="b015638a-9744-4711-b70d-1388a93d2344"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79a76bc6-b772-4a54-a640-8b90c6c67fbc">
+                    <propertyInstance
+                      Id="e074652f-bf44-4116-ae9a-6a78aee558f2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="15c81c5d-a278-4e0e-9cc8-f78b48cfc7ae"
+                  name="idUser"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7215818e-0098-45e3-8622-683b5b86556e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DUpdateUserKcalStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DidUser"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2eda4b99-ec1c-4d53-8a51-7cbbf5c240f9"
+            name="GetUserChracteristicHistoryDuringTheDateInterval"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="897ec97e-662a-4006-a01c-6c9ed00380dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetUserChracteristicHistoryDuringTheDateInterval OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.Shared Type%3DDateInterval)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6587fb8f-b200-4f35-adce-de9a09a147d5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1441b0f9-e84f-4084-a6b0-e31b4b09bb3f">
+                    <propertyInstance
+                      Id="e88e9931-7651-4c84-b8ce-6c7aac6fadfb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca0a8b4d-bf72-435e-b421-3a9f683b2545">
+                    <propertyInstance
+                      Id="d9a00495-845c-45ce-9b1a-5d1094a0ce5d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eb97097-3636-44a2-a842-79b20a6d3e19">
+                    <propertyInstance
+                      Id="513f7f9e-73d5-4dc8-9e97-d8a0bf4fb465"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f851118f-78d8-4343-bb1d-872beed619aa">
+                    <propertyInstance
+                      Id="79b68d76-0f80-4e9b-bf55-6e8815a0198f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38aa6df8-1732-4638-93d8-c84ca8aad477">
+                    <propertyInstance
+                      Id="0417b1c2-7204-488b-b039-ded18d01d9e6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91cea247-2e7c-4ebd-8ef1-f03f26c2ce0d">
+                    <propertyInstance
+                      Id="3f866bb9-792d-4791-9dc3-e512507ed96e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ab15192c-180c-4020-bcff-6889e620facf"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="03a313d1-b20d-44c0-a520-9d2a0cdd352a"
+                      LastKnownName="List&lt;UserCharacteristic‎&gt;"
+                      LastKnownLocation="Package16_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fcd78102-dcd9-462b-977f-6d9764bf9956"
+                  name="idUser"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ba3e5e0d-64da-4f54-a767-25e4006b8b54"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetUserChracteristicHistoryDuringTheDateInterval OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.Shared Type%3DDateInterval)]) ParameterIdentifier%3DidUser"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ba3de133-30e9-4979-b673-5c9c5d7b76b8"
+                  name="idCharacteristic"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1dd53f18-6bcd-4cb7-b2ef-27c120163a70"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetUserChracteristicHistoryDuringTheDateInterval OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.Shared Type%3DDateInterval)]) ParameterIdentifier%3DidCharacteristic"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="22d4ceab-9bc1-4de7-a7ce-dc4a99eb496a"
+                  name="interval"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="51520633-fb85-4eb2-b97b-bd9b62aa7740"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetUserChracteristicHistoryDuringTheDateInterval OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.Shared Type%3DDateInterval)]) ParameterIdentifier%3Dinterval"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="38f91f28-641b-442a-8a95-608e745cad4c"
+                      LastKnownName="DateInterval"
+                      LastKnownLocation="Package26_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1c359139-1cb1-4ae4-9f43-84787cd60945"
+            name="KilocaloriesStandardRecalculationTimeNotPassed"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="751a352f-5da7-411f-b30a-9afdf8270d58"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DKilocaloriesStandardRecalculationTimeNotPassed OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1aba6849-95f1-4f26-b187-69b7b84f2f15"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c4eaa13-58f1-44c7-a0d6-4e2a35b117e5">
+                    <propertyInstance
+                      Id="a69093a2-9786-4403-b45d-0bef805c521f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0705d625-fbed-42ca-bf08-b7ded54e2e31">
+                    <propertyInstance
+                      Id="1fe5ff03-c5a2-4528-b56a-6f6caabd282c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35baff68-1cd1-42ad-94ff-97fc2b352a5d">
+                    <propertyInstance
+                      Id="59872404-b319-4909-8d9b-29606ef65008"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="715a1a38-2d83-4f57-a276-74331704ef46">
+                    <propertyInstance
+                      Id="d7195b0b-9f60-433d-9962-dbaeded0c2a6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5051be7-53a9-46a3-9667-fb1f8db612af">
+                    <propertyInstance
+                      Id="3793f34e-bd22-4b6a-8697-bdd74a1ffa46"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80e65931-1256-4012-a335-3d301c950040">
+                    <propertyInstance
+                      Id="b74613ba-370a-4d56-87f0-5cdfa0ce1d58"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f3addd7b-c5d6-4aaf-a66a-8a2739863a66"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5ab85f35-c5f7-4541-8ad0-b8d51ff0977e"
+                  name="date"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="46cae51f-c027-4af2-8b46-5eea2c8b0e25"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DKilocaloriesStandardRecalculationTimeNotPassed OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]) ParameterIdentifier%3Ddate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="11fa4b9f-16bf-4934-967e-f8b95d6a0e68"
+                      LastKnownName="DateTime"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1ef2ddcd-a7dc-47fb-bf96-80a202b1d713"
+            name="GetValueForDate"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="67abf699-32b6-429d-9420-756bfd33c601"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetValueForDate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DUserCharacteristic)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d9d21f25-8f3f-4bb4-a5a3-e8f735cd5878"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e83d465-0652-42d5-b402-0b7244d06fee">
+                    <propertyInstance
+                      Id="12c1ccb5-b28c-4ec0-b940-9a47ee3cbbfe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8c8d484-0612-4260-a328-6a482379c4e0">
+                    <propertyInstance
+                      Id="a3631abc-b193-4912-8830-54493e3ec17f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f17a1c9-78a0-4fb4-b390-2d0b59a4fcb6">
+                    <propertyInstance
+                      Id="3e6ab0c8-391e-4811-bf7f-1f299649d775"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9737e59-50c3-4c5b-bbff-a236e062d459">
+                    <propertyInstance
+                      Id="0e137504-d5ee-4b8c-9073-4c0eeaec3da4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3952148-e9db-4b16-8a49-dff99a299895">
+                    <propertyInstance
+                      Id="dae2d137-ad1f-4673-b798-767cddb358f5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73982742-40c4-4b0c-b0eb-8bf8c4551a50">
+                    <propertyInstance
+                      Id="42214d39-1bc7-41a3-a596-4bbbfda5df25"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e4b7e29c-18b9-49e5-97c0-61db2a26fd36"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="31c0f5b2-117a-4719-b263-0e4491631ff7"
+                      LastKnownName="Nullable&lt;Single‎&gt;"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="82b6f90e-e5ac-452b-b419-b205a2f6495d"
+                  name="list"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="532efbfe-d1b8-4f27-9e44-309db590462f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetValueForDate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DUserCharacteristic)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]) ParameterIdentifier%3Dlist"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="03a313d1-b20d-44c0-a520-9d2a0cdd352a"
+                      LastKnownName="List&lt;UserCharacteristic‎&gt;"
+                      LastKnownLocation="Package16_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5a5f8905-0503-482d-ac0f-2d3cfecaa24a"
+                  name="date"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="eb076d4d-5ba0-4671-8ebb-8d4b82e80022"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DNutrientsService Member%3D(Name%3DGetValueForDate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DUserCharacteristic)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDateTime)]) ParameterIdentifier%3Ddate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="11fa4b9f-16bf-4934-967e-f8b95d6a0e68"
+                      LastKnownName="DateTime"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="275a72f0-d10e-44d5-9224-26c139520a36"
+        name="PhysicalParametersService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fbfcc874-7536-4f94-b9a2-59e74a5ba8ee"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="783bbc57-82ea-4f11-ba12-6cf7666e015a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0afa933e-79ca-4f98-9d98-3fc3808e9bf7">
+                <propertyInstance
+                  Id="1b0439ee-b1a3-45e8-be96-7e24a304914b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e62df95-6631-4ce0-99f5-4207a8f84646">
+                <propertyInstance
+                  Id="19b6514b-d1ed-423c-be9a-21d414576784"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3bac4b9e-3721-4506-bc81-e98d5a15c0d1">
+                <propertyInstance
+                  Id="6fef6d9c-2020-4e5c-b425-84664f72baf2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d2a8459-99ff-44d4-ba78-90293ac35ca2">
+                <propertyInstance
+                  Id="204a2cb0-6f03-4da2-b7bd-6c793a67db35"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b96290b5-3a7c-4786-94e3-92a6fd070b73">
+                <propertyInstance
+                  Id="47871230-d6c1-446b-a4a0-017670f23536"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="2ceb14c9-1d55-4e1c-96f5-18444facdff8"
+            name="KilocaloriesOnProtein"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3b16673a-716e-4368-a2c9-e8e694bc67d7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3DKilocaloriesOnProtein"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6871d69f-a762-45a9-9ace-e44dabeffb52"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cefb870-06f6-4fce-b481-6e7d38ced88a">
+                    <propertyInstance
+                      Id="346b4f4d-1f7d-4e58-85d7-a1de2f0dffd7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d55baab-beca-494f-a4f6-f4524dba52d9">
+                    <propertyInstance
+                      Id="2ff28fe0-402e-47fb-b03d-d85be882cc2f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa2de612-7e9e-4d63-ab72-1d85a57d2142">
+                    <propertyInstance
+                      Id="edeece25-c089-4873-b444-fab2652abfd3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f00701c6-83a1-444b-afd5-889471a34527">
+                    <propertyInstance
+                      Id="6029ec05-8f35-4e76-94a1-b565d30ab67b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30e264f3-d650-4c1d-aad1-a291acc6f4dd">
+                    <propertyInstance
+                      Id="05e7a327-8b3d-4447-ac5e-7715aba86d7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="8e965e23-ea17-4d57-8f15-154ab77ea065"
+            name="KilocaloriesOnCarb"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="81fe6286-ccb6-4799-8fde-903d9abe83a1"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3DKilocaloriesOnCarb"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1dd57f54-5593-464e-858c-b6750bad1402"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02b18c45-34e4-4c9a-b804-a030137f9b7c">
+                    <propertyInstance
+                      Id="40cb63e6-c0ac-4619-9e50-d9b4bd3bc9d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a74b9b34-a31d-4fbc-920e-0809e65caa4c">
+                    <propertyInstance
+                      Id="582c3a55-5548-4f93-9b9d-8d469c67d5fd"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f3ee2c9-78ce-4a77-a60a-90066ad91329">
+                    <propertyInstance
+                      Id="75b71138-2e24-4dfb-a9e5-79312541cb39"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2a6aca8-9e10-47c4-bcf8-e68b5969d393">
+                    <propertyInstance
+                      Id="0d2a169a-f7f2-455a-b563-d8561c66954a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb7601c5-6511-448d-bb68-177089edc316">
+                    <propertyInstance
+                      Id="9edfbca9-19c3-431e-adda-133db69a3e32"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="af34d64d-6363-4d0b-b620-7bd4df0ae1b9"
+            name="KilocaloriesOnFat"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="33cb6995-1b3b-49b8-9928-97cb2129531d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3DKilocaloriesOnFat"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e2ea0f86-3257-4b57-bedd-4412129455b5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87f82101-a5bd-46d3-9104-0d94cbc58bdf">
+                    <propertyInstance
+                      Id="504bce0a-0fd1-4d6a-bd61-9e51e89a22bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="627dbca7-6684-45c6-96bf-03a191af2150">
+                    <propertyInstance
+                      Id="3eecb3cf-cb88-45b8-8ec6-61b141e2e948"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4f185d5-9dfc-4067-a2d3-7a990c6a6746">
+                    <propertyInstance
+                      Id="0eb6d40f-2b76-4bc2-9a7e-ff71f081de6c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e06dea6b-618d-421b-adf0-e62f158d3959">
+                    <propertyInstance
+                      Id="2779126b-f218-4261-bbba-dcc5c6717431"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94c9df78-2c91-4bc1-9cd0-da42f0bafca9">
+                    <propertyInstance
+                      Id="ba17da38-e84a-47c7-9118-14115c1e4f25"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="fbdc66e3-917d-4882-9243-88762a87045b"
+            name="KilocaloriesProteinPart"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0ef680e7-9f07-4659-9969-bb6e5c88e89d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3DKilocaloriesProteinPart"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="24d13275-f56f-4f80-96b4-3fde60226365"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11d24506-1e36-4be3-8836-6fe18b983ac8">
+                    <propertyInstance
+                      Id="09d157e0-63d6-45eb-a11b-4b47db536b74"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c35733f-4a14-4535-88ae-3a7db0a933eb">
+                    <propertyInstance
+                      Id="6bd48ea2-9663-4c1e-b359-a1a35d394eea"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2944472a-3c69-4f96-a57e-ae4197565b79">
+                    <propertyInstance
+                      Id="8565cd55-ddfb-4782-9082-c10c86fad803"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="810f0dd4-0983-4ede-92cb-cd6717fd3a35">
+                    <propertyInstance
+                      Id="795dcb01-ad5e-4180-a94a-c2936d697a92"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35e0fe92-b728-4335-b34d-0b29f2f5552a">
+                    <propertyInstance
+                      Id="5a79df20-22ca-4069-be76-7ef587a300cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="57954c60-fe5d-4430-86c0-afec3eecd6da"
+            name="KilocaloriesCarbPart"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b5236e1e-f037-4c8a-8fbd-c0278db00166"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3DKilocaloriesCarbPart"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="29bc094a-4f76-4683-958f-63fa0fe31aab"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="432cae58-d44a-48cb-88d0-142b3c0bac58">
+                    <propertyInstance
+                      Id="963f5773-2ba9-4f62-9754-273d708cbe0a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54939356-f443-4270-ac5d-b1b7bef081b5">
+                    <propertyInstance
+                      Id="a5c6736f-af22-4a4c-b0dc-4b9a1464a876"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ff51bda-df49-49e9-b4d8-8c27668d00f8">
+                    <propertyInstance
+                      Id="095816b4-ff6a-4b78-a4ac-2293c06607e4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="484394e9-86f0-43c1-9a69-0dad33ed0091">
+                    <propertyInstance
+                      Id="edfcd765-3301-478e-af5f-89cf4df53931"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="860a1109-a486-48b8-a7f4-556db36e2116">
+                    <propertyInstance
+                      Id="a652bb43-addb-42ce-ba53-eea9f9c2c00c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="5a42622f-0c6d-4ec2-8ef1-391d0b88aa09"
+            name="KilocaloriesFatPart"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0ed13f68-14b8-480e-bebb-ab80ba261da6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3DKilocaloriesFatPart"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ce9efcd1-9d6f-4784-9810-06dd1400c9a0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b6349e6-9153-4672-8229-c6716c04c722">
+                    <propertyInstance
+                      Id="7c7fff8b-d71c-45b0-997a-8e19bd973f83"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d208517-595e-4434-83da-a3ef9b44f564">
+                    <propertyInstance
+                      Id="f9cc8c0a-9a21-45cf-9ba7-8a353ca55eae"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fa8edcc-809f-492f-9a53-f10dd8f1344b">
+                    <propertyInstance
+                      Id="ebb19a0e-09b5-4e77-a065-644d905ab5d5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e985b3e6-760b-4ffb-a0b6-bf8558341bfb">
+                    <propertyInstance
+                      Id="d28d575a-8048-4a42-9b95-c1196f7241e6"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfb73a7a-2c2e-4a58-be05-753904fd0d92">
+                    <propertyInstance
+                      Id="71ed04e1-2c4d-4316-9255-7e8f0f565858"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="d323bc92-bade-4033-8de7-e52091d87cda"
+            name="LitersOnWeight"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4e941134-c274-4710-aac1-effd076e51b9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3DLitersOnWeight"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8707a4a2-db89-4a45-85a9-53d5a2e711e9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40e8ec55-22ee-4f73-8890-85214b5bcf5d">
+                    <propertyInstance
+                      Id="8431185e-6646-43b8-808a-ccfc50cf9988"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14394e88-1156-43dd-9093-4e01eedeb4bc">
+                    <propertyInstance
+                      Id="0119627d-28a5-4833-9d53-40cd025ad072"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67aac21b-df41-4840-b809-f4a28575736e">
+                    <propertyInstance
+                      Id="b38baa0d-67a9-483d-89a3-0a22a08e423c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62d03741-b7cc-45a1-91b9-aaaa22e7aa70">
+                    <propertyInstance
+                      Id="b613866a-4723-42ab-a6af-e4235ac5f75e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a692e5d0-0f8a-41b0-96b3-e76ef5cb03bb">
+                    <propertyInstance
+                      Id="3ce6470c-b41f-4add-9ffe-a8b22bc7fd5d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9f395886-82de-4b44-ab87-9c84012e5486"
+            name="GetCarbs"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fee93c70-e9f0-45fe-94e5-598c0791ba8e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetCarbs OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b612a01d-396c-4322-b48f-c2b5ecbf180d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7fab622-a23b-4cc1-957c-2e4e83ab59bc">
+                    <propertyInstance
+                      Id="8e9ce0ef-e8ba-48a9-b1fb-51ee32b1b891"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3f75497-5c2f-493c-98b8-77c1f1c7516f">
+                    <propertyInstance
+                      Id="81f6108a-4237-44f7-ba2e-4fb6cad910cc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb6119f4-6038-4701-8d38-57de6fad866c">
+                    <propertyInstance
+                      Id="205a92c4-87a3-407b-8d73-3bfcd819ff64"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c97c43d-850c-479f-9d5e-bde793206369">
+                    <propertyInstance
+                      Id="703447aa-6649-47e0-adb5-c902e5cd3d40"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f485451-7375-4f4f-b85a-0c7dc8b6f97a">
+                    <propertyInstance
+                      Id="4830281f-2c9e-4c52-b631-0f6f0cf62a87"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0c3efe1-a7b1-47e0-a88f-8d9a527313c9">
+                    <propertyInstance
+                      Id="04300398-3ba4-4ada-bdab-66cec639d96e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="272b8dc7-e249-424d-a8e9-44ecc6349d4e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4c282fb7-9836-441d-85fc-6745da6eee35"
+                  name="kcal"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ff88b2e4-d86a-4f01-91e7-f1ef2b509a9f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetCarbs OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dkcal"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1a6f1f04-3a64-4f6c-bacb-e6a7030a0c03"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8f4877b1-bc06-42d8-b27c-3976fdfd7e7c"
+            name="GetFat"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="46e13bb1-9cb8-424e-a30f-04df25562817"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetFat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="73988ee2-d357-416a-a064-93087b245efb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="957bcb8f-7266-420d-ae6f-22417e500086">
+                    <propertyInstance
+                      Id="95c41e10-494c-4a7c-9c54-9f2a42b30ff6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00867a7a-404c-413f-b63c-0494982e1907">
+                    <propertyInstance
+                      Id="2d117036-a3d3-4d23-9e96-457a04c0f366"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5682b4b-5ff2-4dd9-84cb-f241e5d1fecc">
+                    <propertyInstance
+                      Id="9767328f-9ec5-436d-b7da-ba691c948351"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46a8c787-77cb-40d7-bb60-3d3f4d83e91f">
+                    <propertyInstance
+                      Id="f4f2fbed-9dbb-4218-851a-728aec07be8a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15cb9420-c5c6-4b85-94c2-6215ba1689f9">
+                    <propertyInstance
+                      Id="fe83a9e6-118e-46b4-9f24-a3f6de2b8e9a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a97beec5-3a67-4d7f-8677-af446a1d268b">
+                    <propertyInstance
+                      Id="8bdba74b-0e88-4179-8c33-c6ee81fe8a76"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="70ef5524-db2d-484a-8450-181261981b3d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dab156fa-0f87-4801-9ac3-48da862110ee"
+                  name="kcal"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7ce4ba0f-68bc-451a-97e6-3f3f18730679"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetFat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dkcal"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1a6f1f04-3a64-4f6c-bacb-e6a7030a0c03"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a770282a-0fe8-4cd9-bb1a-eaf2aa17d426"
+            name="GetProteins"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="82e3fa2f-2b93-46e7-8250-391cc737d362"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetProteins OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8eecfabc-26d0-4361-9687-90deee16c42c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b36b4fe-b7a8-4aec-b0c3-cedf24a08bbc">
+                    <propertyInstance
+                      Id="8c1765fb-222c-4bb9-8383-caf5911449ec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d628943-0032-40f6-b217-aa7cb437c510">
+                    <propertyInstance
+                      Id="a2830c54-4098-497d-8694-606f8738f26c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45433e21-41d1-4735-9b75-ed1ec2fa4386">
+                    <propertyInstance
+                      Id="305fa96f-453f-4e0b-9c76-fc1fa7078301"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1aa589d-3a00-43e3-9653-06a4706a68a8">
+                    <propertyInstance
+                      Id="12984f63-df81-4b42-bdfa-d625dbab9e8e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcb21fa7-a704-4c23-90f6-8958434031ba">
+                    <propertyInstance
+                      Id="ecbc9524-0a18-4f27-9738-b86e31341b8b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e940af88-8f81-4d4d-8a63-5bb210316993">
+                    <propertyInstance
+                      Id="3d0412e1-63a4-4207-96ce-998e765484c4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="be43f74d-e057-4081-8c37-a4e79790e565"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8fefff93-80d4-4386-88fc-fab1d215cda1"
+                  name="kcal"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8da22f71-7a60-409b-8ee2-af783705e896"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetProteins OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dkcal"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1a6f1f04-3a64-4f6c-bacb-e6a7030a0c03"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="86fbea62-1a5c-4949-93a7-71a96e734b7d"
+            name="GetKilocaloriesStandard"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="496f6d00-ef8c-4b5e-8156-d0b7cd3f7385"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetKilocaloriesStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DSex)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="106918f3-e831-47dd-a047-0dcc190c49e1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cbdbee2-9e47-4669-b347-d989fcb7a624">
+                    <propertyInstance
+                      Id="262056e3-55ea-4490-8483-7816a05d1050"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fc92292-9806-4b4d-be13-a22b41702f30">
+                    <propertyInstance
+                      Id="83102b06-2b9a-4a70-85e3-5cc4092cd6b9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b6f8e26-732a-4d1a-a621-00c1ca9c13b1">
+                    <propertyInstance
+                      Id="4079bcb7-e490-4683-87b5-6b15b731a333"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ac30d10-82c5-4f0f-8462-3abdcef37c1f">
+                    <propertyInstance
+                      Id="c56dfcb9-6b88-4554-b4a4-144ae1409d15"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f60c2a1-f3f2-4f75-a0a2-8eab60fe1a80">
+                    <propertyInstance
+                      Id="66d7c5c7-09ce-4dbe-a586-94e91ccc454f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61f297e7-4ac3-44eb-ab59-ac992d550bd9">
+                    <propertyInstance
+                      Id="333902a0-ac37-41dd-8ebb-89054f397b9a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9cc23379-ceb8-4023-a6b0-06f7530d6038"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bd4afa9c-0635-469f-b2e5-82003c1f5a56"
+                  name="weight"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6559edd5-82a4-41cb-b395-ed52fc027323"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetKilocaloriesStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DSex)]) ParameterIdentifier%3Dweight"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c492d15d-aab9-4c98-8ad9-35a7073cb397"
+                  name="height"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="eb4ca868-a589-43d8-b292-63bff68150e2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetKilocaloriesStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DSex)]) ParameterIdentifier%3Dheight"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="13db3fa7-144e-4af6-8353-83c8137bf3e3"
+                  name="activityKoeff"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="86df1b7c-3bcf-4c37-b71b-81e04abc57a6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetKilocaloriesStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DSex)]) ParameterIdentifier%3DactivityKoeff"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a779e43b-89ce-4964-a752-00511dea90b6"
+                  name="age"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fc33e757-830d-4c6e-9e6e-639cde137f47"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetKilocaloriesStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DSex)]) ParameterIdentifier%3Dage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="95481e92-eb21-46c9-93a4-0854cbfb7b19"
+                  name="sex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9eb3ddf6-a292-44f3-8f3b-1232024e6915"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetKilocaloriesStandard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.DatabaseModels Type%3DSex)]) ParameterIdentifier%3Dsex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="3a10f4c5-b0c4-4b40-9c1b-39d173c7e994"
+                      LastKnownName="Sex"
+                      LastKnownLocation="Package12_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0755a9cf-0a28-4b92-a448-f6e27af3acc8"
+            name="GetWaterLiterNormFromWeight"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d8380e0f-0afd-4d74-9b30-1a43b7262bb9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetWaterLiterNormFromWeight OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="af2b587b-b2ab-4812-a1a0-aa9f30699c95"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="957a3cbc-e17d-4890-935c-e78467741806">
+                    <propertyInstance
+                      Id="ecc38353-5529-4aa8-a098-5622da6ad251"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fad49ee7-62cc-4fd8-b6a9-7ee6dcd9642b">
+                    <propertyInstance
+                      Id="1bca34ee-06eb-46f4-ba43-a5dc63f6510e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2559b37a-cdeb-4860-b3c0-e4193afde054">
+                    <propertyInstance
+                      Id="c6f67dcd-a0ed-43cf-86bc-b3d2824b7886"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fbc24d9-0d7e-4e72-9f5d-70f12b4e079b">
+                    <propertyInstance
+                      Id="ea56638d-5df7-437c-a04d-76d443986de5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a206986-84e8-4b57-a51c-34fc64407315">
+                    <propertyInstance
+                      Id="4817cc8d-fe7b-450d-b0a5-5eed4f2763b0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3893979f-fcbf-46c8-9bee-32343741c788">
+                    <propertyInstance
+                      Id="757f864d-3d5f-40a1-9fb7-85f7e9f274ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7a7182cb-2c71-4f02-963e-9c82e9497fb1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02b8a594-7443-4cf5-920a-0a224b8f60f0"
+                  name="weight"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="36ca6356-1838-41c6-a32a-26a2aaad84fa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D(Name%3DGetWaterLiterNormFromWeight OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDouble)]) ParameterIdentifier%3Dweight"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1a6f1f04-3a64-4f6c-bacb-e6a7030a0c03"
+                      LastKnownName="Double"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b51a3ece-4042-4d10-9367-fcdcb1328ccb"
+            name="PhysicalParametersService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="92345d6b-d4f3-4028-a9ae-39c176ed6c72"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Services Type%3DPhysicalParametersService Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b06471bf-dfb4-4ea7-a767-a227d2a2da36"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91a842d7-e3dd-4b55-aafb-10bc3a56aa7a">
+                    <propertyInstance
+                      Id="ed385325-5012-46a6-a561-075ee67887b7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a64087d-69fd-4e19-9cff-21feb1ff358a">
+                    <propertyInstance
+                      Id="deccf26f-1748-444b-b42c-27c9b474a161"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="000f58c3-24b1-4a2d-9336-9585801624e2">
+                    <propertyInstance
+                      Id="7f8c6279-c06a-4aa1-9d33-186fb741a39a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="490ef549-1880-45be-b54f-4fcbed38e613">
+                    <propertyInstance
+                      Id="d4483e26-d974-4f17-8688-3cd2f730c718"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e24a683c-0b8a-45ff-8a73-24c382aab050">
+                    <propertyInstance
+                      Id="308a8de4-444e-4d17-bfbe-3a96b58e253c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cc994d5-c7b5-4491-a0ff-8c338da8cb9f">
+                    <propertyInstance
+                      Id="b4a12bea-c08a-42a3-9a88-ee8fa7f059f7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="81fa574d-48f2-4ec9-9353-4f9d6d7e5940"
+  name="Mvc"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f8eeb7be-af12-41ca-9edb-1a3f58d037f5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.Mvc"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="d32bb2dc-4ec2-436a-8061-788bdbe06673">
+      <profileInstance
+        Id="51478439-7d22-4f7c-bdf9-b616622c7252"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5658cf74-f8be-40b3-b227-74e5b70949d1"
+        name="ActionResult"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="48152808-05d9-4885-8adf-9a2da2c8b352"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DActionResult"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a790223b-f081-405e-ad00-f70abdb7160e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="580321b9-54b2-490c-9f2d-2153df1850d0">
+                <propertyInstance
+                  Id="f08d4337-afbe-4d3d-a52d-eab3e3ff17ce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a57f5dcc-9883-41df-a2cd-4f5554749423">
+                <propertyInstance
+                  Id="7ed05831-c58e-40fc-ab9f-4bc0be8f4f07"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5755531-e37f-4dae-8e8f-542d477b606c">
+                <propertyInstance
+                  Id="c3fb2ec2-9ad5-495c-8fd9-88d19125508b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02824e4a-5826-4fa7-8436-e13dc7d70e3b">
+                <propertyInstance
+                  Id="bdc5d689-ce7e-47a7-ba68-60f9067a1d98"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c9ecaa3-5a45-45e2-ad47-ea98e1a2c544">
+                <propertyInstance
+                  Id="acea227d-fd3c-4800-855b-cb40ba614bf8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e2cf862b-a1cc-4ae6-bd98-6ca10d43fd59"
+        name="Controller"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0a170fef-23bf-41a0-8da0-e26bd4ad4c4b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DController"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ec20d5a1-d6a5-4ddb-90f7-5a0dda378923"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03894ac3-f2bf-401a-b9b1-ac4950f36407">
+                <propertyInstance
+                  Id="9ccbc755-0400-40ea-bda9-b4294142b493"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ead7112-f4ae-47df-9ce9-6de5d38c970b">
+                <propertyInstance
+                  Id="325ec8dd-a856-4844-8ca4-fdf3f8488322"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8901f25c-7232-497a-a7f2-b886f06239aa">
+                <propertyInstance
+                  Id="929cd40e-9604-4f9a-bb76-5206c8656b21"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17f40c8e-b71e-4722-a76f-d500ba750247">
+                <propertyInstance
+                  Id="edaa8b69-1b38-42f5-b4d8-5b5229e45b65"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1658f6d0-0a59-4e4c-8ee6-fb75d8274799">
+                <propertyInstance
+                  Id="b51362d6-eef9-413b-a6d1-2a6cded1c4c9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e8aa0c3a-e186-4aea-8f23-dafc1ce58719"
+        name="SelectList"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="96c4175c-859d-4611-888e-aaa26f3c77c6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DSelectList"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b2bce1f6-bb7b-4cc8-9623-6cbb024ff572"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85f44291-2bd7-4f97-8118-aaf3544fdcb8">
+                <propertyInstance
+                  Id="c0de223d-f090-417a-8df3-e106386f1918"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c0ff3ff-7644-4cfa-b9cb-0d71171730bf">
+                <propertyInstance
+                  Id="b9f5b354-2f32-401a-a4d6-8dc9312dba84"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c64bd6e-7ecf-4340-8394-c6dbd7538c47">
+                <propertyInstance
+                  Id="e53bfe61-78ac-4b8b-b3a5-db3106db81a8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0628ce3-d4fd-463f-8883-5c1ad8ae7fe3">
+                <propertyInstance
+                  Id="3ba0ce7e-8c8c-458c-88fe-5f189a7bd27a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c54f6e0-20ab-413a-9d6a-3dce5a2fddf4">
+                <propertyInstance
+                  Id="d011ca65-8255-43a6-945a-b9fc6212d578"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="635d78d0-04f5-4c2d-a3b3-80df44c973d6"
+        name="GlobalFilterCollection"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c9623e1b-5aa3-4262-a88d-9993a818ce25"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DGlobalFilterCollection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="550ab94d-fc08-4283-b435-49b8f6e77338"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f9be15d-e924-4d9f-97d4-9922adcc2690">
+                <propertyInstance
+                  Id="0d7e8711-e1ff-42d3-a89b-b1af47c118b3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99ba9d6a-32e1-45eb-a51f-2851e1bc80ba">
+                <propertyInstance
+                  Id="3176bd03-7420-4b80-ba77-ccf444381ff5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c58be014-0e16-4497-8d65-6bbff5c43ae4">
+                <propertyInstance
+                  Id="723a050b-6579-4252-8312-17969c629002"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c92243ed-fa08-42f0-8aa4-dfb2924cd264">
+                <propertyInstance
+                  Id="2de913fe-2f52-4551-a966-9d84a3ab97f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0cbabbe-9d12-4ceb-9bfd-b28bdc026794">
+                <propertyInstance
+                  Id="0897d874-e464-424f-b4ca-547f694add40"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5f996681-c6cd-433b-b67b-fd09570f4a4f"
+        name="ControllerContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4c0b0e75-c2e6-4d60-a55f-fb67ad9e9fa9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DControllerContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="241527f8-fe70-4447-b3fc-b710c79b5e41"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a65d04f-b815-4364-87ae-f45fdb5cb76d">
+                <propertyInstance
+                  Id="f9772e87-1cd5-4f3e-93c1-31ab3a0581cf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92467f79-28c9-4857-94da-305caba3f120">
+                <propertyInstance
+                  Id="8f8279be-76d9-440c-bfb8-9d854e75ec14"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2238e129-ce9b-45eb-a5e9-590a2e201f5d">
+                <propertyInstance
+                  Id="e943d69d-7562-4775-98f2-e2cb647a3bd9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="98c591ed-6261-4465-8738-d03d64f9e1d6">
+                <propertyInstance
+                  Id="b0d14713-dfaa-421b-b88c-e56f6326f6e4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d979c00d-8728-4493-9c84-5c4e5b90d0ea">
+                <propertyInstance
+                  Id="456097dc-2a47-48b3-a9bb-33b946c9262f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="36b78e73-cab6-4ff0-ab84-94f71085c2f4"
+        name="ModelBindingContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e821fc8e-577b-4cdc-92f4-eb504330fc0e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DModelBindingContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="de1492a0-91b8-483b-8968-63060c6e8af4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e5a238b-d61f-4714-95e6-53a8e9383b47">
+                <propertyInstance
+                  Id="cde65fa5-0baa-4e24-9445-fcfb41353c84"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="59e79af3-f2e8-4f8b-bed4-03d11ea04457">
+                <propertyInstance
+                  Id="3df238e8-dabe-4e33-a29d-65e408b3f1b3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cdbdcfa7-66c0-49a1-89bd-1c386de663fd">
+                <propertyInstance
+                  Id="a48c2733-3718-4c45-a8a4-cf8be64d7e08"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f40feb3e-dc9a-469f-8d31-1d899f0dff1f">
+                <propertyInstance
+                  Id="ffba0ef1-3334-4999-af63-c1118a6c1dcf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a65b9740-3a70-46c3-aa0c-cd055ae853db">
+                <propertyInstance
+                  Id="df69b3a1-155c-478e-b94f-f90032133315"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="71146de3-65d4-4e1f-bb95-c48b952bfa8b"
+        name="DefaultModelBinder"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a3cb1860-a3e1-4289-9ee2-dbda3c86905a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DDefaultModelBinder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="33e72d90-2851-464e-81f3-080d98606ab2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14fe1e5d-8dd4-499f-b426-9b66cd780fd1">
+                <propertyInstance
+                  Id="44458ffa-9979-47bb-9ed3-ee9f516eb242"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce9d6cf3-e6bf-4a53-b4a7-4bee15b7ec5b">
+                <propertyInstance
+                  Id="84e8593f-bed7-42d9-999d-89f744f5a6b6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2978c44-3646-4446-90e3-160ab49dbc97">
+                <propertyInstance
+                  Id="ac09d9a1-bcf7-4652-b3f5-32867836f606"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b41c608c-26ae-4962-a9ce-a28a37773bcf">
+                <propertyInstance
+                  Id="38147bd0-168c-47d4-a79f-3de8ec978d01"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1f67fa8-90f8-4152-bfce-63c3d47dbdf6">
+                <propertyInstance
+                  Id="a35cba3e-d4a7-499a-b0b5-15d765ad9580"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="57a6653e-15b3-419f-8514-c8fba2efd6ae"
+        name="AreaRegistrationContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="26008907-d926-4b19-8998-8f768f5c8c24"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DAreaRegistrationContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="85ea0f93-6f14-4be1-8cc7-39ca40fd28e2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c22f7cd-f51b-4917-8cf6-99162467cca9">
+                <propertyInstance
+                  Id="f41f9b3c-9695-4484-83bf-7cb2f22f5110"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61e7e2f9-9347-4380-9928-01a134cfb169">
+                <propertyInstance
+                  Id="b6d55490-f2c8-4132-a56b-072821f666e4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e06a6b0-fe1f-48aa-9783-b7960eac1d8a">
+                <propertyInstance
+                  Id="f2222edb-8112-4b87-84dc-a4b855b785ac"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb136697-6e73-4057-9a58-a17ab419d701">
+                <propertyInstance
+                  Id="a3444863-fbc9-44a6-b463-9554e55dae96"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31f98e34-564e-4dbd-acda-1c6a3ce1d905">
+                <propertyInstance
+                  Id="6fea6594-8cb1-42e0-9f8d-4cb530f27b4a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ba23f470-1f60-4317-8aa7-4b052c7af2a9"
+        name="AreaRegistration"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8bf4674d-346f-4942-bf46-184e56ee3fe0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DAreaRegistration"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fa9db4f9-1719-447e-aef5-8f91b0501e58"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f1c91d22-0cb5-4e93-aed1-1dd76eadaa48">
+                <propertyInstance
+                  Id="4c6e23df-7e28-4160-854d-e66454fe3b6d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a252de42-5039-4377-9929-ba274d4e6a2f">
+                <propertyInstance
+                  Id="3184ed55-680b-4a2d-9ca6-0fbc077639cf"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f14e9d46-d840-4af9-b518-20dadc095597">
+                <propertyInstance
+                  Id="b40069be-b502-452b-8800-d6d86995078a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f0b3bb7f-c737-453d-8a52-11c81cf47b73">
+                <propertyInstance
+                  Id="2738c248-b554-4b17-96cf-c4c25ddd82ac"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db7dddb9-a20a-4241-81fc-8361069e1cf2">
+                <propertyInstance
+                  Id="9bded293-32dd-4828-ab77-2a9c36620061"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

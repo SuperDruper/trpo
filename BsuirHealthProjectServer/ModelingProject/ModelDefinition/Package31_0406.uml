@@ -1,0 +1,2085 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9418ea8b-decd-4844-bc8c-c5d4809e50e4"
+  name="ApiModels"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ecde1528-a3b0-455d-8c0c-625782b00450"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBsuirHealthProjectServer.Models.ApiModels"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f2b08809-aed9-4cbd-a793-262d937c5eb1"
+        name="DishSearchedByCategoryAndName"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="86f51ac9-7c72-49b0-841c-8bdeeedb1464"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3d9735e7-bbe9-4389-b433-df0e1621e8ff"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dca27a98-281d-4f89-933e-c4d9ceff3e0c">
+                <propertyInstance
+                  Id="f768bedf-012a-4b6c-9385-4b025be6a0aa"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e92cda34-6fa4-4178-89f2-5dc0364a569d">
+                <propertyInstance
+                  Id="e58abef9-94ce-45c6-9b01-b99115cc5ee8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="97d63d8a-ccdf-43bf-b1a4-a4f8e2b5b3d7">
+                <propertyInstance
+                  Id="bc6e7a62-8ff1-40a7-986a-3fb5f318fc2c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1691eb3-9c44-41ca-b78b-48725d52bee7">
+                <propertyInstance
+                  Id="b8743a2d-149b-422c-9945-12e9d037ed72"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5b1909a-0448-49b9-966c-ab1ca74406df">
+                <propertyInstance
+                  Id="73b197bf-8f79-4e29-9d4c-dd795a8389c2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="061b7885-6925-4961-bea1-cde42fe5e80d"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="TotalProteins"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f803ccab-147a-4a61-b99a-286d695199d0"
+              LastKnownName="Single"
+              LastKnownLocation="Package2_0406.uml" />
+            <description>Property TotalProteins references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="55995cc7-f655-4053-86ae-61626e9e70b5"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f006ed5b-b572-4a2b-90ef-b8d5ca985956"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="59c55398-ef72-47a3-a6d9-4928bb7f6433"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="193f26ac-87c2-46ce-9894-4a06b981534f"
+                  name="TotalProteins"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="94d04701-e4e0-4688-b433-385ee1c00423"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="58101b44-63d7-47a1-acd7-8d47b3c298d1"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0b997aab-7649-4f34-a541-3441eb8e628d"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="TotalFat"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f803ccab-147a-4a61-b99a-286d695199d0"
+              LastKnownName="Single"
+              LastKnownLocation="Package2_0406.uml" />
+            <description>Property TotalFat references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="505c9265-7dec-434e-880d-534c04aa0698"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ab713124-f96e-4796-8518-0963f67488de"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d0310835-dcae-408c-bad0-cfe3863eb006"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d44039eb-a7e9-465f-aaa1-3c37c9617dab"
+                  name="TotalFat"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c6cced29-b243-4cab-a9c4-aa45fc8d58e4"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d973b55b-34d4-487a-8d9d-5140b9582b54"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="616d6097-8bb6-4b08-a812-a4612e8bac9d"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="TotalCarbs"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f803ccab-147a-4a61-b99a-286d695199d0"
+              LastKnownName="Single"
+              LastKnownLocation="Package2_0406.uml" />
+            <description>Property TotalCarbs references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c7d3b878-17ec-49b6-a0de-051bb9d07daa"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="badb3399-7932-41dc-96be-bb96ab26dc53"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ae3ef12a-a8c6-432c-9e4e-6da8bb853a3b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fa88e303-1fdd-4583-8b04-5904e0efc11a"
+                  name="TotalCarbs"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6192d12e-de8b-4674-b58a-18d103ea3287"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b65f34ed-f548-4cc0-a287-713ee3fd161a"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c54c178c-4ef7-4f91-b614-e9ebdbcf0f8f"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="ProteinsPercent"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f803ccab-147a-4a61-b99a-286d695199d0"
+              LastKnownName="Single"
+              LastKnownLocation="Package2_0406.uml" />
+            <description>Property ProteinsPercent references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0f97f451-c6a4-47ce-8d7a-505dbea8a59a"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="67e10be5-1b0f-4f53-ad4e-20585db0ad7d"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="340f0b04-bdcf-4d6d-860b-82c81e7c1d78"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2af82995-299e-45f9-84ed-0586dfc6a38a"
+                  name="ProteinsPercent"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6d84e4cb-6d23-4c90-ab78-cb07e7428297"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="663f6260-6e58-4909-a748-4e4b3a885af2"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="efe3dabc-3e2d-4dba-85f2-181c2756e785"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="FatPercent"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f803ccab-147a-4a61-b99a-286d695199d0"
+              LastKnownName="Single"
+              LastKnownLocation="Package2_0406.uml" />
+            <description>Property FatPercent references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d6116067-9fb7-4755-b9d3-f0f05a16c286"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="98eadf2d-dc3e-4384-be11-e68da3196754"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3730dc96-3a43-4cd7-bb83-f21891e6b297"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="69aac34c-dd38-4892-9822-9d3ab712ccb4"
+                  name="FatPercent"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3fc9fc11-d069-40b3-8e6b-9271b6beeaf1"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d04dcff8-73e2-4e61-aff3-851eac079a2f"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b8b9983b-1fc9-4917-8a26-acf6678e904e"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="CarbsPercent"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f803ccab-147a-4a61-b99a-286d695199d0"
+              LastKnownName="Single"
+              LastKnownLocation="Package2_0406.uml" />
+            <description>Property CarbsPercent references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b9379e43-d89e-4a4a-8af2-c4f6e432f846"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2693785f-2d59-4b2b-be33-2beb2a9ebe65"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="97e63691-8efd-4bf1-803c-22172b28f14e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f030b97f-4c7e-4231-be48-e54a8057b40a"
+                  name="CarbsPercent"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0f370c5e-4906-439e-a9bb-1fbcdc6aa31d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0fe3193e-2e7a-4c57-ab62-870ebb11ec61"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4e6011ac-1256-47a9-99ed-7861b66f44b6"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="TotalCcal"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f803ccab-147a-4a61-b99a-286d695199d0"
+              LastKnownName="Single"
+              LastKnownLocation="Package2_0406.uml" />
+            <description>Property TotalCcal references type Single.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ed4b37c0-6c55-4149-9771-ae9671a98ea4"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5a7cb1a1-dfed-4cfc-9660-92c2acee04b8"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8d15d62e-af4f-4fc8-afb9-069e33fa4584"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="345bf8f0-99ef-4a84-aa6d-e7a19b8f41a2"
+                  name="TotalCcal"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0039edad-6b53-4c8d-8cb7-8e2a59a7caab"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="36a8e9e4-a20f-4910-baaa-b4cde2cdc6d3"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ccbd5c7e-d35a-4210-a973-0a1b7b632bd4"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="DishCategory"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fd8e1b4a-9b75-4b45-b397-934ec704a319"
+              LastKnownName="IdNameModel"
+              LastKnownLocation="Package26_0406.uml" />
+            <description>Property DishCategory references type IdNameModel.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6fe6d842-1ac2-42a4-adc0-cd3df546b850"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="16296b2d-6bd9-4745-b3c9-beeabf93fbfa"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="09ff8af1-b2d7-49df-870f-525df16c7d53"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b3c9259d-1128-4fbf-86aa-fa6b780d50ea"
+                  name="DishCategory"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="573cdb4f-ff10-422d-9070-2a68a3b79450"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7541da2c-bb6a-4eec-ae77-27c88986b641"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="12d25e41-37da-4135-9753-a3fd5d2a7ded"
+            isDerived="false"
+            sourceEndRoleName="DishSearchedByCategoryAndName"
+            targetEndRoleName="DishType"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fd8e1b4a-9b75-4b45-b397-934ec704a319"
+              LastKnownName="IdNameModel"
+              LastKnownLocation="Package26_0406.uml" />
+            <description>Property DishType references type IdNameModel.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="71d318ea-d07b-4303-9773-b6b4ef5cdf95"
+                  name="DishSearchedByCategoryAndName"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a91cd143-fdd5-4343-a945-2fb0118c5fa9"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9c8e686a-f93c-4363-881f-1023bbb7cbc8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c81c651d-680a-402a-bd04-44dbead8eb6b"
+                  name="DishType"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b07fb279-8088-4dbe-b3ba-aa350bcd4874"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="03c411d8-dee7-4ecb-94ba-f5bde543f821"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="8e7eb466-da1f-47e6-8b38-7304cff0da36"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5f538f75-83a3-42ed-9703-580d14db4ad1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9af16520-d184-4be3-a859-7844e0ab3fd1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d433aaaf-2cb1-4791-a34f-0692905f73e3">
+                    <propertyInstance
+                      Id="4a84245d-98e4-4497-bea1-f35e3940c59a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db329ae8-725c-4f09-9fb7-7bbaf6b0503d">
+                    <propertyInstance
+                      Id="a645ea56-1bb6-422c-bfdb-c098f171013d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afffb93a-bfa9-4740-8215-7e8ad2446fae">
+                    <propertyInstance
+                      Id="e6427dc5-b1c1-4ed3-9f9e-4b7b17a8370a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0548d40-c68f-4df9-970f-052454c25904">
+                    <propertyInstance
+                      Id="5a4fe760-7ead-4fd5-ad61-77ddceeadffe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6fb79fe-2fcc-4669-8410-1da285e4471b">
+                    <propertyInstance
+                      Id="c04bffa7-916e-41dc-bc4f-fb17621f49a7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47c972f4-b203-40f3-9c2b-2e5d48bc13bb">
+                    <propertyInstance
+                      Id="1efe8321-1b39-4477-8677-1b22c8ed5fdb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbb6ed3b-158e-42e6-a0e7-aa05a8dc87f7">
+                    <propertyInstance
+                      Id="c21e1b39-e3ce-47c9-a683-83c134de7898"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e964f93e-a5ad-4a8d-91af-52603a8a0ea4"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d8936db0-2b1d-4f1e-86f2-538ac587de20"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0827e774-2608-44db-aea1-df2e8ac8104c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e23aae2-b540-43ea-af53-439a10d7faec">
+                    <propertyInstance
+                      Id="e2d1459b-d29b-40d9-a66e-dd726e53e756"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43cbcc3f-c4de-4920-8bd8-a29126dc316a">
+                    <propertyInstance
+                      Id="ecac046e-0919-49df-9b8f-4105394625a9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb921ee4-9e2c-4922-a432-11d72644188d">
+                    <propertyInstance
+                      Id="3a79f7ed-cf4c-44b7-b41e-70c8aba4eb2f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dab388ea-9fb3-43a6-8f8b-4762f311a330">
+                    <propertyInstance
+                      Id="5ef47a3a-5913-4f35-969f-6dd95e779251"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a645d3ff-e086-4fe6-b725-f1acffa66ddd">
+                    <propertyInstance
+                      Id="845d10cb-4783-4755-a78f-d68784512f5d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="610b563f-c5a5-4504-90ee-8b0d9e9222d1">
+                    <propertyInstance
+                      Id="276d0f60-e5da-4485-8ec8-d2321f97e86d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec7a8dbc-2b7a-4d8b-935d-b4f6459e6eef">
+                    <propertyInstance
+                      Id="174d228d-6310-4f9d-bc5d-50cdbc963b1b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="163a0b2e-d895-40b0-92ed-4b0896321aab"
+            name="Description"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a684b1bb-d9ce-4d0b-88f5-4a64a56405d6"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DDescription"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0b95a782-aecd-41de-8e98-6f9e613e9cdf"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d6a507c-8c8b-4f9e-ae24-5b9f1c15fc5e">
+                    <propertyInstance
+                      Id="438b402e-f94a-40a9-bf75-6c2153e6bbe6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a1ebd87-5f83-456c-8a59-e11a1bdc05d9">
+                    <propertyInstance
+                      Id="0d0eb8f3-076f-4995-ba87-082e71600632"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf0b0a69-dd29-4454-90ba-653af32086ee">
+                    <propertyInstance
+                      Id="fa31101d-c00a-4089-80e0-9aaf47c8edd7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47863b3a-4604-4a31-9e17-1d0125b697f2">
+                    <propertyInstance
+                      Id="317ab855-7e57-4517-a48e-2eeb0efb17b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c19536e-d319-4bc0-b4ae-4f99b36864ed">
+                    <propertyInstance
+                      Id="ed72988f-64aa-4dd2-bbf7-27b80b547df1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d6617c7-bbed-43b0-ad3f-d451aafb7ad4">
+                    <propertyInstance
+                      Id="97624c19-be29-4ec2-8f65-e046cc0c8f12"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d9f14c8-6e03-43bb-9a30-0dbd311022ad">
+                    <propertyInstance
+                      Id="b9ed9457-f058-475c-9618-10b5e6a03a6d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="88d667ce-4987-489a-82f9-5f463574fdc6"
+            name="TotalProteins"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="48893fba-603b-40a6-8340-5bff7879114e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DTotalProteins"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="523de2c4-21b9-40d1-bfad-41d65b44d55d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b71b8102-723c-4f86-9041-7183b37fbe4c">
+                    <propertyInstance
+                      Id="cb593a38-adad-41ab-9fc1-35d5b6416476"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99c5bb0f-57e7-41ee-916e-82969b7dc194">
+                    <propertyInstance
+                      Id="e81c277d-dc65-4c93-94a3-a4271d8c65a2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1327d66c-89f1-4c6a-99e5-123a335123bc">
+                    <propertyInstance
+                      Id="5a06d59b-13be-457b-808c-94c7cd4ac477"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5c0e1de-8e08-45c5-99f5-ac804fc1e7c1">
+                    <propertyInstance
+                      Id="71934f61-41e1-4c8a-9bcd-a8e852c81d46"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d955dfed-8f21-49eb-8b86-6c28eb989c83">
+                    <propertyInstance
+                      Id="72c122cc-7446-4a80-accd-6edbda12d73c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47195fa8-18b6-411f-b49e-c7fb0f3d30f7">
+                    <propertyInstance
+                      Id="c54ac3d7-6ba9-464a-8299-f9588786af66"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71a1739c-1fce-4d4d-9067-9da8b7ded142">
+                    <propertyInstance
+                      Id="5eed6022-4b00-4588-8b04-ba2ba01967b5"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="aedd4d5d-6153-4c37-9565-658b1f9465e3"
+            name="TotalFat"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d16e85a8-fff4-4e78-a2c7-e703241b775a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DTotalFat"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="01cc0161-9b56-4892-9e3a-ca18d486af2d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc77a81b-cbd7-4c15-9e3f-fbf05a481c0e">
+                    <propertyInstance
+                      Id="5155bcdd-93fa-4f4c-a94b-8269e6a9abab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51d391b6-e073-411c-a32d-7fd8872baa71">
+                    <propertyInstance
+                      Id="033f169e-a481-4d71-a76d-9bcb8f3dc397"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a8071c6-63fd-4307-ad41-4c5dea97606b">
+                    <propertyInstance
+                      Id="2dacdd6f-b2fa-4023-903f-e2babe29d899"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b5932cb-374f-4bb9-b541-ba4bb859948d">
+                    <propertyInstance
+                      Id="8d3ee5fd-1100-4d6d-8e44-a5dce3da70a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a20b6732-7618-4de0-98e0-42c4e9b65504">
+                    <propertyInstance
+                      Id="dcfbd0fc-7028-4ac4-800d-0439a21d5ee8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4851d8c5-eea6-490e-94f4-55e17684b101">
+                    <propertyInstance
+                      Id="56975b50-df8d-4900-9d84-4fb7c557d740"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f443cf7-62b5-43dc-982d-b672d40ee0cb">
+                    <propertyInstance
+                      Id="62c1f844-fa4d-4e53-897a-2ba9603a61ef"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ed7c7e9b-d43f-412f-966a-881ba874b1f9"
+            name="TotalCarbs"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7dcae070-a01a-438d-af7f-ea4627bfb8a8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DTotalCarbs"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b71749ff-afec-4f73-be8a-c45fd1582d83"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a9f5a63-fb18-4e97-b9b2-467c37017549">
+                    <propertyInstance
+                      Id="74c89a68-9f61-47f7-b772-bb61d279a301"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fd80b18-695e-43c4-9a7b-7cbd8e3972b7">
+                    <propertyInstance
+                      Id="0b87a084-d686-4d58-b504-0c1e3d78e91b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab253c1f-2456-4b51-83f3-4e79c6490718">
+                    <propertyInstance
+                      Id="392c0173-00ca-458c-906e-69091389aa43"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37f9553c-8f73-4902-92e1-3f840fc1ee2b">
+                    <propertyInstance
+                      Id="eb49459c-b79b-4fc4-8743-b5a63585174b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9259702-08ec-4973-8aa2-b62fae03e1fb">
+                    <propertyInstance
+                      Id="1255c8cb-c700-4869-88a2-493da5ff37bc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cedba9bc-a6ba-4620-a291-301d7029c7f2">
+                    <propertyInstance
+                      Id="9c2be130-d766-4c38-bb1c-694a47505066"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71b9d6fd-0073-40a6-bc81-891affc16a0b">
+                    <propertyInstance
+                      Id="2517e149-e2dc-4b1e-b4a8-3112fbb07486"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="af6bde29-2345-45ed-8ac0-35371377c505"
+            name="ProteinsPercent"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b6ea00f8-646e-48bc-a6ba-d42e1d2b4be2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DProteinsPercent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="45b18310-c8dc-4d69-9bb9-ee9da5d88332"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a207edf8-a80f-4542-b491-aada86918186">
+                    <propertyInstance
+                      Id="a406726d-9417-414a-ad9a-067c0b63fa47"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fec9f35f-e928-487f-87a7-d57f08835c03">
+                    <propertyInstance
+                      Id="0c1afdaf-46da-4010-ab9c-3119f99ab44d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e989b28-d96d-49e7-807e-0fd243592590">
+                    <propertyInstance
+                      Id="c1e46021-8674-4075-9997-048efb5cbe3c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cca25a3-ec25-4808-924e-aa5410f5d99c">
+                    <propertyInstance
+                      Id="a421d088-7f3d-405c-aaa1-7825e7c73df6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57bb904c-8f8c-48d1-b955-0544882a8b55">
+                    <propertyInstance
+                      Id="6e295f46-86a0-4eed-9a72-11c04879673a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce4d00bf-66fa-4598-b151-e10d0c00645b">
+                    <propertyInstance
+                      Id="fcfd1c8d-a052-4611-9ea5-c795a6737a5c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10cfdfb7-3ddd-42f1-a11f-605f8617e27b">
+                    <propertyInstance
+                      Id="73615a0c-542c-45b7-bd81-355ac51162ab"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b3dd94cf-d31c-4375-ac01-4f1d518df71c"
+            name="FatPercent"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c8500454-3d1e-4a36-ba7b-7ae2f31bfd15"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DFatPercent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8cfb567b-1374-4c8e-a2f7-1270dcc228a1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="056f4fc4-6014-4aa5-860a-6949607249f3">
+                    <propertyInstance
+                      Id="76bc37c7-45fe-4937-b79d-0b98b5601130"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c754126-4912-4130-8f13-9c33ada32412">
+                    <propertyInstance
+                      Id="ad04e4fa-177b-4d48-bbfd-204922de9b27"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38da6e8d-8664-4947-8f82-02566cc27cc4">
+                    <propertyInstance
+                      Id="c8af4436-c332-4e33-9030-5a23889681c6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a20d84a-5f73-4abe-8556-398ea780943a">
+                    <propertyInstance
+                      Id="29c72e8d-b49c-4fa3-b29a-ef75c4c9aeec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e308a744-6316-4ae1-84ea-e46cfc115d78">
+                    <propertyInstance
+                      Id="38eb65f6-80f2-4ff1-8741-11e606f874b1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9460f9cc-0cdf-4691-b639-50a6d77813f5">
+                    <propertyInstance
+                      Id="010a60fd-f2f0-424d-b7eb-2c2486b0d44e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afecb422-64ec-44ce-9a66-25b9383f89a6">
+                    <propertyInstance
+                      Id="a6ae8d2e-30b8-49d2-9160-955f49624105"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="09030a3a-b9f8-49bb-9b9b-1ecea433efc3"
+            name="CarbsPercent"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7cea7fc4-d9fd-4aaa-b8d8-995e08baaf12"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DCarbsPercent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ef39427c-036d-44f9-9605-4cb1eda5a780"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cd50faf-0ca1-401b-924b-98faef1dc9d8">
+                    <propertyInstance
+                      Id="b662e66e-4d76-4b35-8a8d-42ee74787114"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c3fbd6a-215d-4d12-accb-d8ee508f9fd6">
+                    <propertyInstance
+                      Id="58af6209-102f-468c-8e9d-5f989cfb6835"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51d250fd-1159-4f03-9830-c292597e90f7">
+                    <propertyInstance
+                      Id="80216e90-8b26-4986-846a-226e4af91d37"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0074efb3-d24e-4680-a96e-ab6c42689960">
+                    <propertyInstance
+                      Id="3deed3aa-44cd-4434-a72a-2bb3504f7544"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51a79de4-0e4c-49e1-96d5-7e1b6c11f88b">
+                    <propertyInstance
+                      Id="c9f48067-779b-4206-8276-3fcda7d6e660"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d8072e4-bcb3-4e47-ac03-86f79862b633">
+                    <propertyInstance
+                      Id="d1cea1a5-20f6-47aa-a8d8-87fe06b2b22f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed2955cb-c125-4261-a0f0-6f68ef47b7d8">
+                    <propertyInstance
+                      Id="2af6df9c-18ec-4866-b193-85f97dedc76e"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="eb3fe0f7-853b-42a5-b36f-da26f4dc95fa"
+            name="TotalCcal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b876b76d-73b9-4a39-8687-f73fb3929ed9"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DTotalCcal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="99d42e98-e20a-4e4e-a4f1-12f1c9263e02"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aef8f72b-8596-4a91-bccd-17ab6041f649">
+                    <propertyInstance
+                      Id="2af0bca4-ec17-450d-bb48-ab965b2767a9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f319d796-cf35-4aed-89d6-c683210daa3a">
+                    <propertyInstance
+                      Id="fa4d5252-5a20-4bdf-bef1-120cf334779a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa4fcbe1-1b07-4aab-bddc-71d3928d944f">
+                    <propertyInstance
+                      Id="9557dea6-6b32-467a-b3c3-349ada1910cf"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac45315a-1309-4b46-ac24-36fd10b96cfb">
+                    <propertyInstance
+                      Id="7d1b1a11-7ddb-46b7-91dc-82b85f76a0c1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e72429cf-b3dd-4986-b69c-1f6a7c896753">
+                    <propertyInstance
+                      Id="cee522ea-aa4b-454b-9937-df7caf947ddc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c88afe5-b0a1-49c9-9fa0-613a487a7cdf">
+                    <propertyInstance
+                      Id="27ddf336-aaeb-4249-9577-13fdb626e391"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90b5697c-ab03-4680-a0bb-53879b6d905a">
+                    <propertyInstance
+                      Id="a6abc526-95cd-4480-889f-7ca9bf5b1765"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e666a29e-8934-4c0a-81a1-859cb47fdf27"
+            name="DishCategory"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8efa428c-02e1-41cc-9db1-53e091e9d4e9"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DDishCategory"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8b70e767-f101-425e-8bd2-d852f01d93c0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4776d4ea-50bc-46d2-a4bf-731486a9c8a5">
+                    <propertyInstance
+                      Id="44611eb9-59eb-4673-a72e-f1e6c955963e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="267b48c5-0e82-4895-8037-0de8d9ef44d7">
+                    <propertyInstance
+                      Id="fe16fb5c-3c08-4429-8496-c47544040a60"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f9307f4-2a9a-489b-8ab9-ff4562ffdf33">
+                    <propertyInstance
+                      Id="4b01c72b-92fc-4b11-92eb-2ec903f9b499"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1836ae80-d2d4-40d8-881e-5679634a9ac4">
+                    <propertyInstance
+                      Id="70d63258-a73b-4c09-87d3-d368cfb42d4c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34d93a4f-0564-43be-9796-1da4ee85752c">
+                    <propertyInstance
+                      Id="f79282e6-e4d7-4274-9059-deca03c483aa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ed54ac5-9885-47ff-b27b-60c7c27e5509">
+                    <propertyInstance
+                      Id="3010ea83-4e5a-40e3-9cb7-14921cec5b83"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86e3c4ef-a7bc-4985-800c-06ac4b5123f8">
+                    <propertyInstance
+                      Id="dcb913f1-7546-4e37-8088-aebf379c1091"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="fd8e1b4a-9b75-4b45-b397-934ec704a319"
+                LastKnownName="IdNameModel"
+                LastKnownLocation="Package26_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b0737447-a46b-4bb5-b9d8-13bb76c38338"
+            name="DishType"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="887a6ef3-d595-4d3a-a16f-beeec814b688"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DDishType"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f57b2d8-5cf6-482c-8ce4-532e1c10d642"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="282f38d8-1b36-42f2-9755-08db88a20a92">
+                    <propertyInstance
+                      Id="9b7e606e-80ad-4f13-aa09-c5027141804e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d6775a6-4650-40d1-9500-7da37f36d0a9">
+                    <propertyInstance
+                      Id="608e3e7f-2749-43db-9725-10ffdd7c1c96"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="279f42b7-8246-418f-b3c7-19da8c235f3f">
+                    <propertyInstance
+                      Id="5b8cf7c5-2514-405e-b25a-419fa9a1d662"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93618083-2db8-4d2e-90e8-3e526d2b7d15">
+                    <propertyInstance
+                      Id="26bd6efc-ffe1-4308-b5ce-ea6eefcd9e0c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c1e7534-85f0-46fe-9bf8-a41e62b455d5">
+                    <propertyInstance
+                      Id="3c37aa6f-a65e-49ab-b270-0ced2c069a9a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d93aa411-3d9e-42eb-a481-20636ba3dba6">
+                    <propertyInstance
+                      Id="e44e4cc4-0f9a-4dab-b347-31b8e274db45"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0026e951-ee30-4198-91fc-55eade9ea525">
+                    <propertyInstance
+                      Id="f318bf9e-bc0d-42c9-93e8-6b34ef5ebab8"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="fd8e1b4a-9b75-4b45-b397-934ec704a319"
+                LastKnownName="IdNameModel"
+                LastKnownLocation="Package26_0406.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="73245d23-6d5d-4112-aa4b-3596e29b2023"
+            name="TotalCarbsProteinsAndFat"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1f12232e-ce8a-4aaf-ac2c-cd4f543af460"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3DTotalCarbsProteinsAndFat"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="49970c0e-6da3-4c49-950b-d9b61be04e91"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb900261-4e6d-401d-a591-f2e8e7dabba8">
+                    <propertyInstance
+                      Id="67fced17-4e27-4ea1-985a-87f5095d05fe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44078e91-67b2-4ae5-a440-ef683c7aa5ad">
+                    <propertyInstance
+                      Id="e7afc137-dbe2-4a93-bdc3-4c2bd07c599e"
+                      name="Get"
+                      value="private" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c0ddaf8-845f-401b-a6dc-2b6b66599c36">
+                    <propertyInstance
+                      Id="2230ff08-e27a-4f12-84a7-31eae9903789"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f80934d0-049d-424c-85de-5eb0b14ff659">
+                    <propertyInstance
+                      Id="57c8b17e-7cd0-4a76-88dc-e14d0713a5fe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ecfeb85-8834-46d1-8752-ec79ebc86e9e">
+                    <propertyInstance
+                      Id="1f9e7a53-8c1c-41e4-ac64-70bf41e92a36"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c313e0c1-d1f3-4575-b5fe-b6adbff1ad12">
+                    <propertyInstance
+                      Id="3cfb5d35-607d-4f8b-a1c2-625b571a0c0a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="068fd234-3d4f-443a-8817-54e62e2a5758">
+                    <propertyInstance
+                      Id="0b8e9578-e961-40ba-a28b-6cb1ac70bde5"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                LastKnownName="Single"
+                LastKnownLocation="Package2_0406.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="90ef5808-0e9a-43c3-8e75-50497f9c36eb"
+            name="CountPercentFromCarbsProteinsAndFat"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8ab87d35-e510-455c-bc08-62ff73dddd1e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3D(Name%3DCountPercentFromCarbsProteinsAndFat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a695cffe-69dd-40cd-abc0-888c9fbfc893"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b72286c-7170-4085-919c-af3632f626e7">
+                    <propertyInstance
+                      Id="a64b2d98-4928-4d0a-a082-23a4f6e1bde6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c01bf1c4-f746-4552-b29f-94621f75ef54">
+                    <propertyInstance
+                      Id="6c16a83b-ce23-476e-9056-c3f9641cb8eb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14bd5fe4-3ba9-4732-9e4e-c271e7578711">
+                    <propertyInstance
+                      Id="f863e581-299c-4174-9ad4-2b6039e1b1e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b18182f-489e-42a5-937c-c25df4058fb5">
+                    <propertyInstance
+                      Id="a6b4c80c-2ea6-4ea1-99a2-e8778f385658"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b262b89f-e53d-4184-bab2-6d0a7769ea2c">
+                    <propertyInstance
+                      Id="813bcbd2-d7e1-4bc7-ba55-d4e979453060"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9e773e1-23e3-411a-be6d-dbdd92cf5731">
+                    <propertyInstance
+                      Id="656578a1-04be-48ac-8392-82d74b69bb85"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="44288200-4497-46f8-8dca-18247820249c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6d5541be-7263-42d1-987a-a7920a40414a"
+                  name="carbsProteinsOrFat"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b434549c-da37-494c-90bb-31057908fbea"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3D(Name%3DCountPercentFromCarbsProteinsAndFat OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3DcarbsProteinsOrFat"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f803ccab-147a-4a61-b99a-286d695199d0"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package2_0406.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d4c47442-973e-46b9-b3bc-87b70a2380fd"
+            name="DishSearchedByCategoryAndName"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="53bc46dd-a1a3-445b-871b-464eafa463de"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DDishSearchedByCategoryAndName Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7e852745-5399-4533-800a-f6ac107f0d14"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08718455-7c8e-43f4-8e15-2e22c05e273e">
+                    <propertyInstance
+                      Id="44a1f2a9-bf65-417a-a269-8230d0a893fd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d722ebf5-0e41-45cb-b88c-5a77caba7be1">
+                    <propertyInstance
+                      Id="7ee0ad81-baea-4af2-aaeb-6ed38238b16e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e819092-8649-4e73-aefa-709477d22a87">
+                    <propertyInstance
+                      Id="e1f0fd10-ce61-4479-ae70-90e9f92dbd95"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0a71ca6-cdd4-4467-b850-814fabe6cbf0">
+                    <propertyInstance
+                      Id="a33b3f07-6fb4-4f26-8c06-fea84138785f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ff654df-7fcc-43d8-bab7-3ef25d87fc7c">
+                    <propertyInstance
+                      Id="1add96b2-567b-466b-b10d-ec16acb29ce0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea749a63-c8b3-4089-a8d6-d1ca8bf06a56">
+                    <propertyInstance
+                      Id="9b20e347-1759-40a9-8ccc-ae4014cf7e5b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8317eecb-cd54-454d-9895-7e5e4ea92178"
+        name="EatingIdWrapper"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="31616a97-a45b-4e28-bf07-eceddff1e892"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DEatingIdWrapper"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="57305a4a-2bc3-40e2-9dee-99b9aaf5bff1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83522005-69af-475a-a085-ab7b799a75e3">
+                <propertyInstance
+                  Id="3017ba8f-14b8-414e-8b23-4a8857eca573"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7681d8b-8da7-41db-a6c4-9edfba453987">
+                <propertyInstance
+                  Id="b608aafd-d3a2-4aea-8457-3d1d28404193"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3ebd9864-1fed-49e7-924e-7cbf087013b7">
+                <propertyInstance
+                  Id="4d1b50cc-1285-4ce7-9124-7126956c6738"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="533f1c2b-4138-4bc8-b2e4-06fb6702c419">
+                <propertyInstance
+                  Id="9a5f69d7-18df-4f3c-a1a4-b3ecd1dc4f62"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="827f2b94-a114-4132-acc5-2314eee24341">
+                <propertyInstance
+                  Id="dc93de80-f355-4aa0-bea6-cb547a1fabfb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="3125e3ed-00c2-412e-a841-b21b6b216dec"
+            name="EatingId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="42b0c196-bccf-4c38-ad18-1c3ac367d14d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DEatingIdWrapper Member%3DEatingId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3513b18d-5bd6-4843-9e42-0bbca2d4b37a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="598d2074-b136-4df1-b507-6859aa2bda82">
+                    <propertyInstance
+                      Id="ffa299ce-f1c2-4045-9d42-80249dd5a3bf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55293950-cf3d-425c-98da-4c494b1e63df">
+                    <propertyInstance
+                      Id="ae6f34f8-f298-44fa-8af5-ef7d59aebeb9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dc40dca-d4dd-4229-bcf3-f3f3af2272fd">
+                    <propertyInstance
+                      Id="b957eef2-5710-4f8f-82ae-ba13db039f6e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="782db0f0-4c06-4bc8-bf14-e510dcb00953">
+                    <propertyInstance
+                      Id="cc229cf9-1c92-477c-81ea-bb7b9db55670"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ab4186b-e744-4822-adf0-0ff7f15a8f74">
+                    <propertyInstance
+                      Id="3ef45bd6-3268-4598-a7ff-551062fd8f99"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eee6f178-24e9-44c3-8dad-18f1896afe9f">
+                    <propertyInstance
+                      Id="5d96eb6d-e767-4c0c-90ab-d83ade2ad290"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b63408ad-447f-4c0f-8bb3-7e2e3b503731">
+                    <propertyInstance
+                      Id="3359b187-0e3c-4859-8f4c-98bdcc352e08"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="33461775-5219-46f5-a568-6938b8985089"
+            name="EatingIdWrapper"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8153b31f-950a-4ea8-a552-235d03524ef7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2Fmy_programs%2FС%2523%2Fbsuirhealth%2FBsuirHealthProjectServer%2FBsuirHealthProjectServer%2Fbin%2FBsuirHealthProjectServer.dll Namespace%3DBsuirHealthProjectServer.Models.ApiModels Type%3DEatingIdWrapper Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4464e47-eba1-4368-8d7a-0adeb095b45b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2bd3769-f21a-48fc-966f-448a9ce97d7e">
+                    <propertyInstance
+                      Id="7afac529-44c7-4a81-8292-c523ccdb9758"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f59141ba-4045-4f4c-9141-1aca92fed591">
+                    <propertyInstance
+                      Id="5d1e86f0-da85-4d3c-aa3d-1c281372af8c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bda107fa-1f66-4dc3-80a1-31ec728c2aa6">
+                    <propertyInstance
+                      Id="40f204cb-edb2-4b09-b57f-7b75369fc1bb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e5e2e1f-4277-4aef-8721-981eccaa798f">
+                    <propertyInstance
+                      Id="4a791133-ddf6-473c-be60-6aee70814603"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5079641-7d2a-43a4-bac4-4eae7caf65e5">
+                    <propertyInstance
+                      Id="cf8e3e8d-0f70-4190-9680-e06930f4c7e9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c1e2c54-360e-4f80-af63-4b13a42920bc">
+                    <propertyInstance
+                      Id="eddb1e7c-eba2-4230-beed-16599443312c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b4ea3493-6156-4d17-9c52-3ee57fee9cf0"
+  name="Cryptography"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="575c1088-db7d-470c-97c5-4be28d3a37c8"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Security.Cryptography"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="82adab7f-45f7-4ca6-891d-897629827339"
+        name="RandomNumberGenerator"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d055e069-63ac-487a-b88b-d1007f8a1aad"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Security.Cryptography Type%3DRandomNumberGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="127dddd4-43fb-4bfb-85ab-19a6a0c973e2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8531429e-8d6c-445d-810d-e992547a86f6">
+                <propertyInstance
+                  Id="19af818c-75e7-4340-89ae-54772e57f0ec"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c19b5f8b-40df-457d-9864-00c69c1cbd8a">
+                <propertyInstance
+                  Id="56e9d48f-9524-4bb3-be80-24854d70125e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3dece978-f9a6-4189-8b71-be200ca70ceb">
+                <propertyInstance
+                  Id="c9459d0a-c966-4299-a215-4bf64753b9f8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1491e01d-20e2-4eed-bf5b-b3decc41a01d">
+                <propertyInstance
+                  Id="f773d1d1-21f6-4151-abbc-8968d230d137"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c323fe6-21e9-49df-928a-b2a74122a7b0">
+                <propertyInstance
+                  Id="68c452b6-ee91-42b3-994f-335ab63f3cc1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

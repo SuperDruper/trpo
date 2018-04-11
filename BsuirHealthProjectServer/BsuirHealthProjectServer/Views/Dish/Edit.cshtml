@@ -1,0 +1,153 @@
+﻿@using BsuirHealthProjectServer.Models.DatabaseModels
+@using Microsoft.Ajax.Utilities
+@model IEnumerable<PortionFood>
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Dish dish = ViewBag.DishToView;
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Dish</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.Hidden("Id", dish.Id)
+
+        <div class="form-group">
+            @Html.Label("Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Name", dish.Name, new { @class = "form-control" })
+                @Html.ValidationMessage("Name", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Description", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextArea("Description", dish.Description, new { @class = "form-control" })
+                @Html.ValidationMessage("Description", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("TotalProteins", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("TotalProteins", dish.TotalProteins.ToString(), new { @class = "form-control" })
+                @Html.ValidationMessage("TotalProteins", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("TotalFat", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("TotalFat", dish.TotalFat.ToString(), new { @class = "form-control" })
+                @Html.ValidationMessage("TotalFat", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("TotalCarbs", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("TotalCarbs", dish.TotalCarbs.ToString(), 
+                    new { @class = "form-control" })
+                @Html.ValidationMessage("TotalCarbs", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("TotalCcal", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("TotalCcal", dish.TotalCcal.ToString(), 
+                    new { @class = "form-control"  })
+                @Html.ValidationMessage("TotalCcal", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("TotalSugar", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("TotalSugar", dish.TotalSugar.ToString(), 
+                    new { @class = "form-control" })
+                @Html.ValidationMessage("TotalSugar", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("TotalAmountWater", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("TotalAmountWater", dish.TotalAmountWater.ToString(), 
+                    new { @class = "form-control"  })
+                @Html.ValidationMessage("TotalAmountWater", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("IdDishCategory", "DishCategory", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("IdDishCategory", (IEnumerable<SelectListItem>)ViewBag.IdDishCategory, 
+                    null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessage("IdDishCategory", "", new { @class = "text-danger" })
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                 @Html.ActionLink("Create new dish", "Create")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+<br/>
+<p>    @Html.ActionLink("Add portion food", "AddPortionFood", new { Id = dish.Id })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Food @Html.DisplayNameFor(model => model.Food.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Food.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDeleted)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditPortionFood", new { foodId = item.IdFood, dishId = item.IdDish }, null) |
+                @Html.ActionLink("Details", "DetailsPortionFood", new { foodId = item.IdFood, dishId = item.IdDish }, null) |
+                @Html.ActionLink("Delete", "DeletePortionFood", new { foodId = item.IdFood, dishId = item.IdDish }, null)
+            </td>
+        </tr>
+    }
+    </table>
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>

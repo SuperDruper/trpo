@@ -1,0 +1,69 @@
+﻿@using BsuirHealthProjectServer.Models.ViewModels
+@model LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/Site.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-md-4 col-md-offset-4">
+                @using (Html.BeginForm("Login", "Admin", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                        <ul class="list-inline">
+                            <li class="text-center"><h4>Log In</h4></li>
+                            <li class="col-md-offset-6">@Html.ActionLink("Home", "Index", "Home")</li>
+                        </ul>
+                    
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group">
+                        <div class="form-inline">
+                            <div class="col-md-4 text-center">
+                                @Html.LabelFor(m => m.Username, new { @class = "col-md-2 control-label" })
+                            </div>
+                            <div class="col-md-8 text-center">
+                                @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-md-offset-4 text-center">
+                            @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-inline">
+                            <div class="col-md-4 text-center">
+                                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                            </div>
+                            <div class="col-md-8 text-center">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-md-offset-4 text-center">
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-8 col-md-4">
+                            <input type="submit" value="Log In" class="btn btn-default" />
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
